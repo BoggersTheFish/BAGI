@@ -1,6 +1,9 @@
 # Publishing BOS to GitHub
 
-## First-time setup (this folder only)
+> **Canonical repo:** the whole workspace is pushed as **`BAGI`** (one monorepo at the parent folder).  
+> See **[`../../docs/GITHUB-BAGI.md`](../../docs/GITHUB-BAGI.md)** — do **not** use a separate `origin` only for `BOS/` unless you know you need a split.
+
+## First-time setup (this folder only — legacy / subfolder workflow)
 
 ```bash
 cd BOS

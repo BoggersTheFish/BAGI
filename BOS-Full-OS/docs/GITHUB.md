@@ -1,6 +1,9 @@
 # Publishing BOS-Full-OS to GitHub
 
-## What gets committed
+> **Canonical repo:** the whole workspace is pushed as **`BAGI`** (one monorepo at the parent folder).  
+> See **[`../../docs/GITHUB-BAGI.md`](../../docs/GITHUB-BAGI.md)**.
+
+## What gets committed (when BOS-Full-OS was its own repo — legacy)
 
 - `crates/`, `recipes/`, `scripts/`, `patches/`, `docs/`, `config.toml`, `Cargo.toml`, `README.md`, etc.
 - **`redox/` is ignored** (see `.gitignore`) — it is a separate clone of [gitlab.redox-os.org/redox-os/redox](https://gitlab.redox-os.org/redox-os/redox). Do not commit the full Redox tree.
