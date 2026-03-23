@@ -1,0 +1,10 @@
+[package]
+name = "bos-ts-shell"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name = "bos-ts-shell"
+path = "src/main.rs"
+
+[dependencies]

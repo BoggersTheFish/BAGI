@@ -1,0 +1,19 @@
+# Minimal CLI + BoggersBrain closed loop (stdlib-heavy; optional deps below)
+numpy>=1.24
+ollama>=0.3
+pydantic>=2.0
+python-dotenv>=1.0
+
+# BoggersBrain Phase 5 (embodiment / vision) — optional but recommended
+pillow>=10.0
+pyautogui>=0.9
+
+# Web (optional)
+fastapi>=0.110
+uvicorn>=0.27
+
+# Future QLoRA (Wave 059+) — uncomment when training
+# torch>=2.4
+# unsloth  # install per https://github.com/unslothai/unsloth
+
+# Note: sqlite3 is in the Python standard library.

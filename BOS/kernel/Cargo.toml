@@ -1,0 +1,12 @@
+[package]
+name = "bos-kernel"
+description = "TS kernel idle loop stubs — Propagate/Relax/Tension/Break/Evolve (Thinking System)"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[lib]
+name = "bos_kernel"
+path = "src/lib.rs"
+
+[dependencies]

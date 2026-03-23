@@ -1,0 +1,8 @@
+# Redox cookbook recipe — bos-ts-kernel
+# After `apply-overlay.sh`, this lives under redox/cookbook/recipes/bos-ts-kernel/
+# Verify keys against: https://doc.redox-os.org/book/including-programs.html
+
+[build]
+template = "cargo"
+
+# Source is the `source/` subdirectory next to this file (cargo library).

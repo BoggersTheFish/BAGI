@@ -1,0 +1,12 @@
+[package]
+name = "bos-ts-shell"
+description = "TS-OS userspace shell — Orbital graph dashboard (Redox target)"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[[bin]]
+name = "bos-ts-shell"
+path = "src/main.rs"
+
+[dependencies]

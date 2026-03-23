@@ -1,0 +1,2258 @@
+{
+  "nodes": [
+    {
+      "id": "session:61556624-1a19-4169-931f-b78c18cd3c40",
+      "content": "Session 61556624-1a19-4169-931f-b78c18cd3c40",
+      "topics": [
+        "conversation",
+        "session"
+      ],
+      "activation": 0.18999999999999995,
+      "stability": 0.8,
+      "base_strength": 0.7,
+      "last_wave": 0,
+      "collapsed": false,
+      "attributes": {
+        "session_id": "61556624-1a19-4169-931f-b78c18cd3c40",
+        "type": "session_meta"
+      }
+    },
+    {
+      "id": "hn:496eaafb9150",
+      "content": "Don't post generated/AI-edited comments. HN is for conversation between humans",
+      "topics": [
+        "conversation",
+        "hacker-news"
+      ],
+      "activation": 0.22799999999999998,
+      "stability": 0.68,
+      "base_strength": 0.5,
+      "last_wave": 0,
+      "collapsed": false,
+      "attributes": {}
+    },
+    {
+      "id": "hn:8dc5c173987c",
+      "content": "Conversations with a six-year-old on functional programming (2018)",
+      "topics": [
+        "conversation",
+        "hacker-news"
+      ],
+      "activation": 0.22799999999999998,
+      "stability": 0.68,
+      "base_strength": 0.5,
+      "last_wave": 0,
+      "collapsed": false,
+      "attributes": {}
+    },
+    {
+      "id": "hn:b1ef050c3a00",
+      "content": "A guide to difficult conversations",
+      "topics": [
+        "conversation",
+        "hacker-news"
+      ],
+      "activation": 0.22799999999999998,
+      "stability": 0.68,
+      "base_strength": 0.5,
+      "last_wave": 0,
+      "collapsed": false,
+      "attributes": {}
+    },
+    {
+      "id": "hn:d1bc71a345e2",
+      "content": "Amazon device recorded private conversation, sent it out to random contact",
+      "topics": [
+        "hacker-news",
+        "recorded"
+      ],
+      "activation": 0.22799999999999998,
+      "stability": 0.68,
+      "base_strength": 0.5,
+      "last_wave": 0,
+      "collapsed": false,
+      "attributes": {}
+    },
+    {
+      "id": "hn:fa9db69c2239",
+      "content": "Google employees are listening to Google Home conversations",
+      "topics": [
+        "conversation",
+        "hacker-news"
+      ],
+      "activation": 0.22799999999999998,
+      "stability": 0.68,
+      "base_strength": 0.5,
+      "last_wave": 0,
+      "collapsed": false,
+      "attributes": {}
+    },
+    {
+      "id": "hn:a77afa6c33ad",
+      "content": "8M users' AI conversations sold for profit by \"privacy\" extensions",
+      "topics": [
+        "conversation",
+        "hacker-news"
+      ],
+      "activation": 0.22799999999999998,
+      "stability": 0.68,
+      "base_strength": 0.5,
+      "last_wave": 0,
+      "collapsed": false,
+      "attributes": {}
+    },
+    {
+      "id": "hn:175a9910cda7",
+      "content": "Show HN: Get conversational practice in over 20 languages by talking to an AI Hi everyone,<p>Let me introduce you to Quazel, where we want to enable people to talk their way to fluency.<p>We have all tried various language learning apps and tools, however, one aspect of language learning current services are really bad at is conversational practice. You might get a chat-like interface, but in the end, the conversation partner will only respond with a predefined &quot;if the users say X I say Y&quot;.<p>With Quazel that&#x27;s completely different. In completely dynamic and unscripted conversation you can talk about pretty much anything you want. For example, you can try ordering food at a restaurant and even hold a philosophical discussion with Socrates. Additionally, you can analyze the grammar of your responses or use hints to help you out when you get stuck.<p>We want to change how languages are learned from a grammar-centric approach to a more natural, conversation-focused one.",
+      "topics": [
+        "conversation",
+        "hacker-news"
+      ],
+      "activation": 0.22799999999999998,
+      "stability": 0.68,
+      "base_strength": 0.5,
+      "last_wave": 0,
+      "collapsed": false,
+      "attributes": {}
+    },
+    {
+      "id": "hn:0dec473c6043",
+      "content": "What happened in this GPT-3 conversation?",
+      "topics": [
+        "conversation",
+        "hacker-news"
+      ],
+      "activation": 0.22799999999999998,
+      "stability": 0.68,
+      "base_strength": 0.5,
+      "last_wave": 0,
+      "collapsed": false,
+      "attributes": {}
+    },
+    {
+      "id": "hn:03e40a2ecd49",
+      "content": "Conversation skills essentials",
+      "topics": [
+        "conversation",
+        "hacker-news"
+      ],
+      "activation": 0.22799999999999998,
+      "stability": 0.68,
+      "base_strength": 0.5,
+      "last_wave": 0,
+      "collapsed": false,
+      "attributes": {}
+    },
+    {
+      "id": "hn:305f408d66bb",
+      "content": "Good conversations have lots of doorknobs",
+      "topics": [
+        "conversation",
+        "hacker-news"
+      ],
+      "activation": 0.22799999999999998,
+      "stability": 0.68,
+      "base_strength": 0.5,
+      "last_wave": 0,
+      "collapsed": false,
+      "attributes": {}
+    },
+    {
+      "id": "hn:24f55c8f1c37",
+      "content": "GPT-5.1: A smarter, more conversational ChatGPT",
+      "topics": [
+        "conversation",
+        "hacker-news"
+      ],
+      "activation": 0.22799999999999998,
+      "stability": 0.68,
+      "base_strength": 0.5,
+      "last_wave": 0,
+      "collapsed": false,
+      "attributes": {}
+    },
+    {
+      "id": "hn:94e29bd0ee80",
+      "content": "SiriSpy \u2013 iOS bug allowed apps to eavesdrop on your conversations with Siri",
+      "topics": [
+        "conversation",
+        "hacker-news"
+      ],
+      "activation": 0.22799999999999998,
+      "stability": 0.68,
+      "base_strength": 0.5,
+      "last_wave": 0,
+      "collapsed": false,
+      "attributes": {}
+    },
+    {
+      "id": "hn:aa75d5dec923",
+      "content": "A short conversation with a bank",
+      "topics": [
+        "conversation",
+        "hacker-news"
+      ],
+      "activation": 0.22799999999999998,
+      "stability": 0.68,
+      "base_strength": 0.5,
+      "last_wave": 0,
+      "collapsed": false,
+      "attributes": {}
+    },
+    {
+      "id": "hn:416a757f8676",
+      "content": "Show HN: Z80-\u03bcLM, a 'Conversational AI' That Fits in 40KB How small can a language model be while still doing something useful? I wanted to find out, and had some spare time over the holidays.<p>Z80-\u03bcLM is a character-level language model with 2-bit quantized weights ({-2,-1,0,+1}) that runs on a Z80 with 64KB RAM. The entire thing: inference, weights, chat UI, it all fits in a 40KB .COM file that you can run in a CP&#x2F;M emulator and hopefully even real hardware!<p>It won&#x27;t write your emails, but it can be trained to play a stripped down version of 20 Questions, and is sometimes able to maintain the illusion of having simple but terse conversations with a distinct personality.<p>--<p>The extreme constraints nerd-sniped me and forced interesting trade-offs: trigram hashing (typo-tolerant, loses word order), 16-bit integer math, and some careful massaging of the training data meant I could keep the examples &#x27;interesting&#x27;.<p>The key was quantization-aware training that accurately models the inference code limitations. The training loop runs both float and integer-quantized forward passes in parallel, scoring the model on how well its knowledge survives quantization. The weights are progressively pushed toward the 2-bit grid using straight-through estimators, with overflow penalties matching the Z80&#x27;s 16-bit accumulator limits. By the end of training, the model has already adapted to its constraints, so no post-hoc quantization collapse.<p>Eventually I ended up spending a few dollars on Claude API to generate 20 questions data (see examples&#x2F;guess&#x2F;GUESS.COM), I hope Anthropic won&#x27;t send me a C&amp;D for distilling their model against the ToS ;P<p>But anyway, happy code-golf season everybody :)",
+      "topics": [
+        "conversation",
+        "hacker-news"
+      ],
+      "activation": 0.22799999999999998,
+      "stability": 0.68,
+      "base_strength": 0.5,
+      "last_wave": 0,
+      "collapsed": false,
+      "attributes": {}
+    },
+    {
+      "id": "hn:345ac8b3bf7d",
+      "content": "Children aren't born smart. They're made smart by conversation",
+      "topics": [
+        "conversation",
+        "hacker-news"
+      ],
+      "activation": 0.22799999999999998,
+      "stability": 0.68,
+      "base_strength": 0.5,
+      "last_wave": 0,
+      "collapsed": false,
+      "attributes": {}
+    },
+    {
+      "id": "hn:d250828dbd88",
+      "content": "Researchers reach human parity in conversational speech recognition",
+      "topics": [
+        "conversation",
+        "hacker-news"
+      ],
+      "activation": 0.22799999999999998,
+      "stability": 0.68,
+      "base_strength": 0.5,
+      "last_wave": 0,
+      "collapsed": false,
+      "attributes": {}
+    },
+    {
+      "id": "hn:83b20ffa8e94",
+      "content": "Open Assistant: Conversational AI for Everyone",
+      "topics": [
+        "conversation",
+        "hacker-news"
+      ],
+      "activation": 0.22799999999999998,
+      "stability": 0.68,
+      "base_strength": 0.5,
+      "last_wave": 0,
+      "collapsed": false,
+      "attributes": {}
+    },
+    {
+      "id": "hn:d416810f353c",
+      "content": "Why I can't have conversations using Twitter",
+      "topics": [
+        "conversation",
+        "hacker-news"
+      ],
+      "activation": 0.22799999999999998,
+      "stability": 0.68,
+      "base_strength": 0.5,
+      "last_wave": 0,
+      "collapsed": false,
+      "attributes": {}
+    },
+    {
+      "id": "hn:4cb6beffbb89",
+      "content": "Phone conversations with law enforcement can be recorded without their consent",
+      "topics": [
+        "hacker-news",
+        "recorded"
+      ],
+      "activation": 0.22799999999999998,
+      "stability": 0.68,
+      "base_strength": 0.5,
+      "last_wave": 0,
+      "collapsed": false,
+      "attributes": {}
+    },
+    {
+      "id": "hn:0c687e19bb6e",
+      "content": "Timemap.org \u2013 Interactive Map of History",
+      "topics": [
+        "hacker-news",
+        "history"
+      ],
+      "activation": 0.22799999999999998,
+      "stability": 0.68,
+      "base_strength": 0.5,
+      "last_wave": 0,
+      "collapsed": false,
+      "attributes": {}
+    },
+    {
+      "id": "hn:790b3073b1f0",
+      "content": "US Constitution \u2013 A Git repo with history of edits",
+      "topics": [
+        "hacker-news",
+        "history"
+      ],
+      "activation": 0.22799999999999998,
+      "stability": 0.68,
+      "base_strength": 0.5,
+      "last_wave": 0,
+      "collapsed": false,
+      "attributes": {}
+    },
+    {
+      "id": "hn:3f1e6c4c96f3",
+      "content": "Gukesh becomes the youngest chess world champion in history",
+      "topics": [
+        "hacker-news",
+        "history"
+      ],
+      "activation": 0.22799999999999998,
+      "stability": 0.68,
+      "base_strength": 0.5,
+      "last_wave": 0,
+      "collapsed": false,
+      "attributes": {}
+    },
+    {
+      "id": "hn:29806df3eedf",
+      "content": "History LLMs: Models trained exclusively on pre-1913 texts",
+      "topics": [
+        "hacker-news",
+        "history"
+      ],
+      "activation": 0.22799999999999998,
+      "stability": 0.68,
+      "base_strength": 0.5,
+      "last_wave": 0,
+      "collapsed": false,
+      "attributes": {}
+    },
+    {
+      "id": "hn:cad57a735725",
+      "content": "An oral history of Bank Python",
+      "topics": [
+        "hacker-news",
+        "history"
+      ],
+      "activation": 0.22799999999999998,
+      "stability": 0.68,
+      "base_strength": 0.5,
+      "last_wave": 0,
+      "collapsed": false,
+      "attributes": {}
+    },
+    {
+      "id": "hn:81adbb1bd684",
+      "content": "A Pre-History of Slashdot",
+      "topics": [
+        "hacker-news",
+        "history"
+      ],
+      "activation": 0.22799999999999998,
+      "stability": 0.68,
+      "base_strength": 0.5,
+      "last_wave": 0,
+      "collapsed": false,
+      "attributes": {}
+    },
+    {
+      "id": "hn:b4821ba8c9fa",
+      "content": "My somewhat complete salary history as a software engineer",
+      "topics": [
+        "hacker-news",
+        "history"
+      ],
+      "activation": 0.22799999999999998,
+      "stability": 0.68,
+      "base_strength": 0.5,
+      "last_wave": 0,
+      "collapsed": false,
+      "attributes": {}
+    },
+    {
+      "id": "hn:e1d0394fd16d",
+      "content": "Exposed DeepSeek database leaking sensitive information, including chat history",
+      "topics": [
+        "hacker-news",
+        "history"
+      ],
+      "activation": 0.22799999999999998,
+      "stability": 0.68,
+      "base_strength": 0.5,
+      "last_wave": 0,
+      "collapsed": false,
+      "attributes": {}
+    },
+    {
+      "id": "hn:0db10f7d1adb",
+      "content": "Uber wants access to browsing history, bookmarks, and running apps",
+      "topics": [
+        "hacker-news",
+        "history"
+      ],
+      "activation": 0.22799999999999998,
+      "stability": 0.68,
+      "base_strength": 0.5,
+      "last_wave": 0,
+      "collapsed": false,
+      "attributes": {}
+    },
+    {
+      "id": "hn:44d61561824f",
+      "content": "Microsoft Edge records browsing history in InPrivate mode",
+      "topics": [
+        "hacker-news",
+        "history"
+      ],
+      "activation": 0.22799999999999998,
+      "stability": 0.68,
+      "base_strength": 0.5,
+      "last_wave": 0,
+      "collapsed": false,
+      "attributes": {}
+    },
+    {
+      "id": "hn:7c26b4532a20",
+      "content": "I took \"abusing the HTML5 History\" to the next level. It's technically not using the HTML5 History, but that post inspired this idea.",
+      "topics": [
+        "hacker-news",
+        "history"
+      ],
+      "activation": 0.22799999999999998,
+      "stability": 0.68,
+      "base_strength": 0.5,
+      "last_wave": 0,
+      "collapsed": false,
+      "attributes": {}
+    },
+    {
+      "id": "hn:8cd5d71504bd",
+      "content": "WRT54G History: The Router That Accidentally Went Open Source",
+      "topics": [
+        "hacker-news",
+        "history"
+      ],
+      "activation": 0.22799999999999998,
+      "stability": 0.68,
+      "base_strength": 0.5,
+      "last_wave": 0,
+      "collapsed": false,
+      "attributes": {}
+    },
+    {
+      "id": "hn:5566efca4903",
+      "content": "The new warrant: how US police mine Google for your location and search history",
+      "topics": [
+        "hacker-news",
+        "history"
+      ],
+      "activation": 0.22799999999999998,
+      "stability": 0.68,
+      "base_strength": 0.5,
+      "last_wave": 0,
+      "collapsed": false,
+      "attributes": {}
+    },
+    {
+      "id": "hn:c856b427e72e",
+      "content": "The Secret History of Kim Jung Il -- written by one of his high school teachers",
+      "topics": [
+        "hacker-news",
+        "history"
+      ],
+      "activation": 0.22799999999999998,
+      "stability": 0.68,
+      "base_strength": 0.5,
+      "last_wave": 0,
+      "collapsed": false,
+      "attributes": {}
+    },
+    {
+      "id": "hn:8417fb4a9336",
+      "content": "A History of Clojure [pdf]",
+      "topics": [
+        "hacker-news",
+        "history"
+      ],
+      "activation": 0.22799999999999998,
+      "stability": 0.68,
+      "base_strength": 0.5,
+      "last_wave": 0,
+      "collapsed": false,
+      "attributes": {}
+    },
+    {
+      "id": "hn:ace486256c04",
+      "content": "WSL2 corrupting Git repositories and shell history",
+      "topics": [
+        "hacker-news",
+        "history"
+      ],
+      "activation": 0.22799999999999998,
+      "stability": 0.68,
+      "base_strength": 0.5,
+      "last_wave": 0,
+      "collapsed": false,
+      "attributes": {}
+    },
+    {
+      "id": "hn:3f9598b1e2a1",
+      "content": "Facebook announces Clear History feature",
+      "topics": [
+        "hacker-news",
+        "history"
+      ],
+      "activation": 0.22799999999999998,
+      "stability": 0.68,
+      "base_strength": 0.5,
+      "last_wave": 0,
+      "collapsed": false,
+      "attributes": {}
+    },
+    {
+      "id": "hn:92ebefd768e8",
+      "content": "Moments in Chromecast's history",
+      "topics": [
+        "hacker-news",
+        "history"
+      ],
+      "activation": 0.22799999999999998,
+      "stability": 0.68,
+      "base_strength": 0.5,
+      "last_wave": 0,
+      "collapsed": false,
+      "attributes": {}
+    },
+    {
+      "id": "hn:3527257f43da",
+      "content": "History and Effective Use of Vim",
+      "topics": [
+        "hacker-news",
+        "history"
+      ],
+      "activation": 0.22799999999999998,
+      "stability": 0.68,
+      "base_strength": 0.5,
+      "last_wave": 0,
+      "collapsed": false,
+      "attributes": {}
+    },
+    {
+      "id": "hn:186b394423e0",
+      "content": "Mark Zuckerberg Promised a Clear History Tool Almost a Year Ago",
+      "topics": [
+        "hacker-news",
+        "history"
+      ],
+      "activation": 0.22799999999999998,
+      "stability": 0.68,
+      "base_strength": 0.5,
+      "last_wave": 0,
+      "collapsed": false,
+      "attributes": {}
+    },
+    {
+      "id": "hn:5e9021d4557f",
+      "content": "Show HN: Termtosvg \u2013 Record terminal sessions as SVG animations",
+      "topics": [
+        "hacker-news",
+        "session"
+      ],
+      "activation": 0.22799999999999998,
+      "stability": 0.68,
+      "base_strength": 0.5,
+      "last_wave": 0,
+      "collapsed": false,
+      "attributes": {}
+    },
+    {
+      "id": "hn:b0fe2898dfc2",
+      "content": "Firesheep: Easy HTTP session hijacking from within Firefox",
+      "topics": [
+        "hacker-news",
+        "session"
+      ],
+      "activation": 0.22799999999999998,
+      "stability": 0.68,
+      "base_strength": 0.5,
+      "last_wave": 0,
+      "collapsed": false,
+      "attributes": {}
+    },
+    {
+      "id": "hn:38589eba1ee9",
+      "content": "Short session expiration does not help security",
+      "topics": [
+        "hacker-news",
+        "session"
+      ],
+      "activation": 0.22799999999999998,
+      "stability": 0.68,
+      "base_strength": 0.5,
+      "last_wave": 0,
+      "collapsed": false,
+      "attributes": {}
+    },
+    {
+      "id": "hn:b7d15353ddcb",
+      "content": "We found and fixed a rare race condition in our session handling",
+      "topics": [
+        "hacker-news",
+        "session"
+      ],
+      "activation": 0.22799999999999998,
+      "stability": 0.68,
+      "base_strength": 0.5,
+      "last_wave": 0,
+      "collapsed": false,
+      "attributes": {}
+    },
+    {
+      "id": "hn:5e37af4f3017",
+      "content": "If AI writes code, should the session be part of the commit?",
+      "topics": [
+        "hacker-news",
+        "session"
+      ],
+      "activation": 0.22799999999999998,
+      "stability": 0.68,
+      "base_strength": 0.5,
+      "last_wave": 0,
+      "collapsed": false,
+      "attributes": {}
+    },
+    {
+      "id": "hn:838d89072107",
+      "content": "Fun with your friend's Facebook and Tinder sessions",
+      "topics": [
+        "hacker-news",
+        "session"
+      ],
+      "activation": 0.22799999999999998,
+      "stability": 0.68,
+      "base_strength": 0.5,
+      "last_wave": 0,
+      "collapsed": false,
+      "attributes": {}
+    },
+    {
+      "id": "hn:bb88257c7e5b",
+      "content": "macOS lock screen: \u201cI just sent my session pass to my whole team\u201d",
+      "topics": [
+        "hacker-news",
+        "session"
+      ],
+      "activation": 0.22799999999999998,
+      "stability": 0.68,
+      "base_strength": 0.5,
+      "last_wave": 0,
+      "collapsed": false,
+      "attributes": {}
+    },
+    {
+      "id": "hn:8ffe256a675f",
+      "content": "Show HN: We\u2019re open-sourcing our session replay tool Hey HN! We\u2019re open-sourcing highlight.io (<a href=\"https:&#x2F;&#x2F;github.com&#x2F;highlight&#x2F;highlight\">https:&#x2F;&#x2F;github.com&#x2F;highlight&#x2F;highlight</a>), a session replay and error monitoring tool. Highlight.io gives you a high-precision video-like replay of what users are doing when an error or exception occurs in your web app, along with a full-fledged error monitoring experience (similar to bugsnag, rollbar, etc..).<p>The main value prop of highlight.io  is that we help you understand the full context surrounding an error and allow you to drill down to the code path that a user invoked (i.e user clicked button X,  sent network request Y, and backend code Z was executed). Some of our customers compare this to a \u201cweb debugger\u201d of sorts. A picture of what this looks like in our app is here [1].<p>For some background, when we worked at our previous companies as engineers, we encountered hard-to-reproduce issues spanning across both the frontend and backend. The main issues were (1) if a customer complained about a problem, it was hard to reproduce the issue without asking for a screen-share or jumping on a video call; and (2) when viewing errors caught by tools like BugSnag or Rollbar, understanding the triggered code path required stitching together logs, errors, and trace; all from different sources.<p>Highlight.io is completely open source and written in Go and Typescript. To build the replay capability, we use an open source project called rrweb [2] and have worked closely with their team to add support for features like canvas recording, shadow dom recording, and more [3]. Beyond that, we use the OpenTelemetry spec for our SDKs [4], which has made it pretty straight forward to support several languages, even with our small 4-person engineering team!<p>Our product is completely self-serve at app.highlight.io. Installing it is as easy as a npm&#x2F;yarn import and installing the backend sdk of your choosing. In addition, given the privacy-centric nature of session replay, we also offer the option to self-host [5].\nHighlight.io currently makes money off of our hosted offering, and our self-hosted deployment is completely free. We\u2019re also toying with the idea of an \u201centerprise\u201d self-hosted deployment, similar to gitlab\u2019s billing model, and thoughts from the community on this front would be appreciated!<p>And as far as what\u2019s next for us: Our customers are asking to render logs and traces on a highlight.io session (and vice versa), and we\u2019re excited to be going deeper into a developer\u2019s debugging stack. The long term goal is to build a platform that connects replay, errors, logs and more so that engineers can \u201cplayback\u201d the full state of a web application.<p>Overall, we\u2019re quite new to the open source scene and would love the HN community to share their feedback on what we\u2019re building. If anyone has opinions on where we\u2019re going, or what they\u2019d like to see in an open source monitoring product, we\u2019re all ears. \nCheck us out at highlight.io and at github.com&#x2F;highlight&#x2F;highlight to give us a shot.<p>[1]: <a href=\"https:&#x2F;&#x2F;www.highlight.io&#x2F;docs&#x2F;getting-started&#x2F;frontend-backend-mapping\">https:&#x2F;&#x2F;www.highlight.io&#x2F;docs&#x2F;getting-started&#x2F;frontend-backe...</a><p>[2]: <a href=\"https:&#x2F;&#x2F;github.com&#x2F;rrweb-io&#x2F;rrweb\">https:&#x2F;&#x2F;github.com&#x2F;rrweb-io&#x2F;rrweb</a><p>[3]: <a href=\"https:&#x2F;&#x2F;highlight.io&#x2F;docs&#x2F;general&#x2F;product-features&#x2F;session-replay&#x2F;overview\">https:&#x2F;&#x2F;highlight.io&#x2F;docs&#x2F;general&#x2F;product-features&#x2F;session-r...</a><p>[4]: <a href=\"https:&#x2F;&#x2F;opentelemetry.io&#x2F;docs\" rel=\"nofollow\">https:&#x2F;&#x2F;opentelemetry.io&#x2F;docs</a><p>[5]: <a href=\"https:&#x2F;&#x2F;www.highlight.io&#x2F;docs&#x2F;general&#x2F;company&#x2F;open-source&#x2F;self-host-hobby\">https:&#x2F;&#x2F;www.highlight.io&#x2F;docs&#x2F;general&#x2F;company&#x2F;open-source&#x2F;se...</a>",
+      "topics": [
+        "hacker-news",
+        "session"
+      ],
+      "activation": 0.22799999999999998,
+      "stability": 0.68,
+      "base_strength": 0.5,
+      "last_wave": 0,
+      "collapsed": false,
+      "attributes": {}
+    },
+    {
+      "id": "hn:8424cf03bc08",
+      "content": "My ISP Is Killing My Idle SSH Sessions",
+      "topics": [
+        "hacker-news",
+        "session"
+      ],
+      "activation": 0.22799999999999998,
+      "stability": 0.68,
+      "base_strength": 0.5,
+      "last_wave": 0,
+      "collapsed": false,
+      "attributes": {}
+    },
+    {
+      "id": "hn:48e8e6c6935b",
+      "content": "Orchestrate teams of Claude Code sessions",
+      "topics": [
+        "hacker-news",
+        "session"
+      ],
+      "activation": 0.22799999999999998,
+      "stability": 0.68,
+      "base_strength": 0.5,
+      "last_wave": 0,
+      "collapsed": false,
+      "attributes": {}
+    },
+    {
+      "id": "hn:be33a583e89c",
+      "content": "Push events into a running session with channels",
+      "topics": [
+        "hacker-news",
+        "session"
+      ],
+      "activation": 0.22799999999999998,
+      "stability": 0.68,
+      "base_strength": 0.5,
+      "last_wave": 0,
+      "collapsed": false,
+      "attributes": {}
+    },
+    {
+      "id": "hn:e0cc4a56767f",
+      "content": "Asciinema \u2013 Record and share terminal sessions",
+      "topics": [
+        "hacker-news",
+        "session"
+      ],
+      "activation": 0.22799999999999998,
+      "stability": 0.68,
+      "base_strength": 0.5,
+      "last_wave": 0,
+      "collapsed": false,
+      "attributes": {}
+    },
+    {
+      "id": "hn:944567a2fbcc",
+      "content": "JWT should not be your default for sessions",
+      "topics": [
+        "hacker-news",
+        "session"
+      ],
+      "activation": 0.22799999999999998,
+      "stability": 0.68,
+      "base_strength": 0.5,
+      "last_wave": 0,
+      "collapsed": false,
+      "attributes": {}
+    },
+    {
+      "id": "hn:99d4e17bdc61",
+      "content": "Non Session Manager vs New Session Manager",
+      "topics": [
+        "hacker-news",
+        "session"
+      ],
+      "activation": 0.22799999999999998,
+      "stability": 0.68,
+      "base_strength": 0.5,
+      "last_wave": 0,
+      "collapsed": false,
+      "attributes": {}
+    },
+    {
+      "id": "hn:64883aaf6cc8",
+      "content": "JSON Web Tokens vs. Sessions",
+      "topics": [
+        "hacker-news",
+        "session"
+      ],
+      "activation": 0.22799999999999998,
+      "stability": 0.68,
+      "base_strength": 0.5,
+      "last_wave": 0,
+      "collapsed": false,
+      "attributes": {}
+    },
+    {
+      "id": "hn:9e1f2a1e9c91",
+      "content": "Observations running 2M headless sessions",
+      "topics": [
+        "hacker-news",
+        "session"
+      ],
+      "activation": 0.22799999999999998,
+      "stability": 0.68,
+      "base_strength": 0.5,
+      "last_wave": 0,
+      "collapsed": false,
+      "attributes": {}
+    },
+    {
+      "id": "hn:d23a1182af8c",
+      "content": "How to move a running process into a tmux session (2020)",
+      "topics": [
+        "hacker-news",
+        "session"
+      ],
+      "activation": 0.22799999999999998,
+      "stability": 0.68,
+      "base_strength": 0.5,
+      "last_wave": 0,
+      "collapsed": false,
+      "attributes": {}
+    },
+    {
+      "id": "hn:455693f678af",
+      "content": "Asciinema: Record and share your terminal sessions",
+      "topics": [
+        "hacker-news",
+        "session"
+      ],
+      "activation": 0.22799999999999998,
+      "stability": 0.68,
+      "base_strength": 0.5,
+      "last_wave": 0,
+      "collapsed": false,
+      "attributes": {}
+    },
+    {
+      "id": "hn:c53e122d1e62",
+      "content": "Many popular iPhone apps are recording user sessions without asking",
+      "topics": [
+        "hacker-news",
+        "session"
+      ],
+      "activation": 0.22799999999999998,
+      "stability": 0.68,
+      "base_strength": 0.5,
+      "last_wave": 0,
+      "collapsed": false,
+      "attributes": {}
+    },
+    {
+      "id": "hn:16825bc8e556",
+      "content": "Woman ordered to pay $30K for defamation by BC Supreme Court for online review",
+      "topics": [
+        "61556624",
+        "hacker-news"
+      ],
+      "activation": 0.22799999999999998,
+      "stability": 0.68,
+      "base_strength": 0.5,
+      "last_wave": 0,
+      "collapsed": false,
+      "attributes": {}
+    },
+    {
+      "id": "hn:27d1c00e3ea8",
+      "content": "Predictions from the Father of Science Fiction (2012)",
+      "topics": [
+        "61556624",
+        "hacker-news"
+      ],
+      "activation": 0.22799999999999998,
+      "stability": 0.68,
+      "base_strength": 0.5,
+      "last_wave": 0,
+      "collapsed": false,
+      "attributes": {}
+    },
+    {
+      "id": "hn:5618b4058465",
+      "content": "No more Blue Screen of Death, here's what other colours they COULD use",
+      "topics": [
+        "61556624",
+        "hacker-news"
+      ],
+      "activation": 0.22799999999999998,
+      "stability": 0.68,
+      "base_strength": 0.5,
+      "last_wave": 0,
+      "collapsed": false,
+      "attributes": {}
+    },
+    {
+      "id": "hn:62c11aed93ba",
+      "content": "Crypto Could Be Contagious",
+      "topics": [
+        "61556624",
+        "hacker-news"
+      ],
+      "activation": 0.22799999999999998,
+      "stability": 0.68,
+      "base_strength": 0.5,
+      "last_wave": 0,
+      "collapsed": false,
+      "attributes": {}
+    },
+    {
+      "id": "hn:a703cfe5df7b",
+      "content": "240,000 network monitoring sensors one on NetCrunch server",
+      "topics": [
+        "61556624",
+        "hacker-news"
+      ],
+      "activation": 0.22799999999999998,
+      "stability": 0.68,
+      "base_strength": 0.5,
+      "last_wave": 0,
+      "collapsed": false,
+      "attributes": {}
+    },
+    {
+      "id": "hn:cb7f52b5c40e",
+      "content": "Measures to make housing more affordable wouldn't be popular with voters",
+      "topics": [
+        "61556624",
+        "hacker-news"
+      ],
+      "activation": 0.22799999999999998,
+      "stability": 0.68,
+      "base_strength": 0.5,
+      "last_wave": 0,
+      "collapsed": false,
+      "attributes": {}
+    },
+    {
+      "id": "hn:beeec2f53a41",
+      "content": "Australia first country to introduce tax on savings",
+      "topics": [
+        "61556624",
+        "hacker-news"
+      ],
+      "activation": 0.22799999999999998,
+      "stability": 0.68,
+      "base_strength": 0.5,
+      "last_wave": 0,
+      "collapsed": false,
+      "attributes": {}
+    },
+    {
+      "id": "hn:d733c7f44df7",
+      "content": "Say hello to the new Facebook logo",
+      "topics": [
+        "61556624",
+        "hacker-news"
+      ],
+      "activation": 0.22799999999999998,
+      "stability": 0.68,
+      "base_strength": 0.5,
+      "last_wave": 0,
+      "collapsed": false,
+      "attributes": {}
+    },
+    {
+      "id": "hn:88b83b9608c3",
+      "content": "Mass. State Police Tested Out Boston Dynamics\u2019 Spot the Robot",
+      "topics": [
+        "61556624",
+        "hacker-news"
+      ],
+      "activation": 0.22799999999999998,
+      "stability": 0.68,
+      "base_strength": 0.5,
+      "last_wave": 0,
+      "collapsed": false,
+      "attributes": {}
+    },
+    {
+      "id": "hn:cae2fbb55191",
+      "content": "Cotton candy or meth? Woman sues Monroe Co. over false drug test results",
+      "topics": [
+        "61556624",
+        "hacker-news"
+      ],
+      "activation": 0.22799999999999998,
+      "stability": 0.68,
+      "base_strength": 0.5,
+      "last_wave": 0,
+      "collapsed": false,
+      "attributes": {}
+    },
+    {
+      "id": "hn:faaaa7911f1f",
+      "content": "Google AI recommends adding Elmer's glue to pizza cheese after scanning Reddit",
+      "topics": [
+        "1a19",
+        "hacker-news"
+      ],
+      "activation": 0.22799999999999998,
+      "stability": 0.68,
+      "base_strength": 0.5,
+      "last_wave": 0,
+      "collapsed": false,
+      "attributes": {}
+    },
+    {
+      "id": "hn:2707c33aff7e",
+      "content": "Italy OKs $15.5B project to build suspension bridge from mainland to Sicily",
+      "topics": [
+        "1a19",
+        "hacker-news"
+      ],
+      "activation": 0.22799999999999998,
+      "stability": 0.68,
+      "base_strength": 0.5,
+      "last_wave": 0,
+      "collapsed": false,
+      "attributes": {}
+    },
+    {
+      "id": "hn:0056d715d701",
+      "content": "Ups Cargo Plane Crashes in Kentucky",
+      "topics": [
+        "1a19",
+        "hacker-news"
+      ],
+      "activation": 0.22799999999999998,
+      "stability": 0.68,
+      "base_strength": 0.5,
+      "last_wave": 0,
+      "collapsed": false,
+      "attributes": {}
+    },
+    {
+      "id": "hn:14b798947886",
+      "content": "\u2018Hand of China\u2019: Beijing pushes Uyghurs to spy on each other overseas",
+      "topics": [
+        "1a19",
+        "hacker-news"
+      ],
+      "activation": 0.22799999999999998,
+      "stability": 0.68,
+      "base_strength": 0.5,
+      "last_wave": 0,
+      "collapsed": false,
+      "attributes": {}
+    },
+    {
+      "id": "hn:3a61d5f58194",
+      "content": "The Simple Economics of Open Source (2000) [pdf]",
+      "topics": [
+        "1a19",
+        "hacker-news"
+      ],
+      "activation": 0.22799999999999998,
+      "stability": 0.68,
+      "base_strength": 0.5,
+      "last_wave": 0,
+      "collapsed": false,
+      "attributes": {}
+    },
+    {
+      "id": "hn:0b560af47839",
+      "content": "Why coastal communities should fear storm surge",
+      "topics": [
+        "1a19",
+        "hacker-news"
+      ],
+      "activation": 0.22799999999999998,
+      "stability": 0.68,
+      "base_strength": 0.5,
+      "last_wave": 0,
+      "collapsed": false,
+      "attributes": {}
+    },
+    {
+      "id": "hn:11af3dc85db8",
+      "content": "Hiring, Interviews and Corporatism in Tech",
+      "topics": [
+        "1a19",
+        "hacker-news"
+      ],
+      "activation": 0.22799999999999998,
+      "stability": 0.68,
+      "base_strength": 0.5,
+      "last_wave": 0,
+      "collapsed": false,
+      "attributes": {}
+    },
+    {
+      "id": "hn:d80d16171b83",
+      "content": "Aaron Swartz, Asking For Help, 119 Days Ago",
+      "topics": [
+        "1a19",
+        "hacker-news"
+      ],
+      "activation": 0.22799999999999998,
+      "stability": 0.68,
+      "base_strength": 0.5,
+      "last_wave": 0,
+      "collapsed": false,
+      "attributes": {}
+    },
+    {
+      "id": "hn:01b1fd25188a",
+      "content": "1213486160 has a friend: 1195725856",
+      "topics": [
+        "1a19",
+        "hacker-news"
+      ],
+      "activation": 0.22799999999999998,
+      "stability": 0.68,
+      "base_strength": 0.5,
+      "last_wave": 0,
+      "collapsed": false,
+      "attributes": {}
+    },
+    {
+      "id": "hn:e3bfb945af2b",
+      "content": "1195725856 and other mysterious numbers",
+      "topics": [
+        "1a19",
+        "hacker-news"
+      ],
+      "activation": 0.22799999999999998,
+      "stability": 0.68,
+      "base_strength": 0.5,
+      "last_wave": 0,
+      "collapsed": false,
+      "attributes": {}
+    },
+    {
+      "id": "hn:17eea1bcf67b",
+      "content": "Windows 11 Pro: about 11% slower than Linux on Intel Core i9 11900K",
+      "topics": [
+        "1a19",
+        "hacker-news"
+      ],
+      "activation": 0.22799999999999998,
+      "stability": 0.68,
+      "base_strength": 0.5,
+      "last_wave": 0,
+      "collapsed": false,
+      "attributes": {}
+    },
+    {
+      "id": "hn:1299c12cf9a9",
+      "content": "The SF Anti-Mask League of 1919",
+      "topics": [
+        "1a19",
+        "hacker-news"
+      ],
+      "activation": 0.22799999999999998,
+      "stability": 0.68,
+      "base_strength": 0.5,
+      "last_wave": 0,
+      "collapsed": false,
+      "attributes": {}
+    },
+    {
+      "id": "hn:d2be49249f44",
+      "content": "XKCD 1190 is now more individual frames than there are XKCD comics.",
+      "topics": [
+        "1a19",
+        "hacker-news"
+      ],
+      "activation": 0.22799999999999998,
+      "stability": 0.68,
+      "base_strength": 0.5,
+      "last_wave": 0,
+      "collapsed": false,
+      "attributes": {}
+    },
+    {
+      "id": "hn:9d5804cb0d96",
+      "content": "1919 cartoon depicting the use of a \u2018pocket telephone\u2019",
+      "topics": [
+        "1a19",
+        "hacker-news"
+      ],
+      "activation": 0.22799999999999998,
+      "stability": 0.68,
+      "base_strength": 0.5,
+      "last_wave": 0,
+      "collapsed": false,
+      "attributes": {}
+    },
+    {
+      "id": "hn:929dc94b0717",
+      "content": "The Basic Problem of Democracy (1919)",
+      "topics": [
+        "1a19",
+        "hacker-news"
+      ],
+      "activation": 0.22799999999999998,
+      "stability": 0.68,
+      "base_strength": 0.5,
+      "last_wave": 0,
+      "collapsed": false,
+      "attributes": {}
+    },
+    {
+      "id": "hn:4cf97b67eca8",
+      "content": "My Inventions \u2013 Nikola Tesla (1919)",
+      "topics": [
+        "1a19",
+        "hacker-news"
+      ],
+      "activation": 0.22799999999999998,
+      "stability": 0.68,
+      "base_strength": 0.5,
+      "last_wave": 0,
+      "collapsed": false,
+      "attributes": {}
+    },
+    {
+      "id": "hn:7b1f2efe1c96",
+      "content": "Want to bounce around an idea? Need a proxy desk neighbour? Call 714.881.1119 My name is Kent.<p>I am a Rails programmer and work from home.  I will be online on Skype from 11:00AM EST time until around 3:00PM EST.<p>If you have a Ruby, Rails problem, question or just want to bounce an idea around give me a call.<p>I know a lot about web design, web applications, HCI, startups, Ruby, Rails, jQuery, SEO, HTML, CSS and am a good sounding board for ideas in general.<p>Often times I need someone to talk to when I need to bounce an idea around and I don't have another programmer / techie in my area. I also don't work in an office and find IRC a little cold.  So, let's go remote, I will be your proxy desk neighbour.<p>Skype (kent.fenwick) or call (714) 881-1119<p>Thanks,\nKent",
+      "topics": [
+        "1a19",
+        "hacker-news"
+      ],
+      "activation": 0.22799999999999998,
+      "stability": 0.68,
+      "base_strength": 0.5,
+      "last_wave": 0,
+      "collapsed": false,
+      "attributes": {}
+    },
+    {
+      "id": "hn:bb1a503fcbaf",
+      "content": "The 1619 Project",
+      "topics": [
+        "1a19",
+        "hacker-news"
+      ],
+      "activation": 0.22799999999999998,
+      "stability": 0.68,
+      "base_strength": 0.5,
+      "last_wave": 0,
+      "collapsed": false,
+      "attributes": {}
+    },
+    {
+      "id": "hn:8c237ec4df3d",
+      "content": "In 1919, an Army convoy drove cross-country from Washington to San Francisco",
+      "topics": [
+        "1a19",
+        "hacker-news"
+      ],
+      "activation": 0.22799999999999998,
+      "stability": 0.68,
+      "base_strength": 0.5,
+      "last_wave": 0,
+      "collapsed": false,
+      "attributes": {}
+    },
+    {
+      "id": "hn:e0fe36d38642",
+      "content": "Hottest Rain on Record: Rain Falls at 119\u00b0F in Imperial, California",
+      "topics": [
+        "1a19",
+        "hacker-news"
+      ],
+      "activation": 0.22799999999999998,
+      "stability": 0.68,
+      "base_strength": 0.5,
+      "last_wave": 0,
+      "collapsed": false,
+      "attributes": {}
+    },
+    {
+      "id": "tool:b70952a52843",
+      "content": "Calculation failed: invalid syntax (<unknown>, line 1)",
+      "topics": [
+        "calc",
+        "conversation",
+        "history"
+      ],
+      "activation": 0.2875,
+      "stability": 0.7,
+      "base_strength": 0.5,
+      "last_wave": 0,
+      "collapsed": false,
+      "attributes": {}
+    },
+    {
+      "id": "query:fb2100c46e3f",
+      "content": "Q: Conversation history:\n- Session 61556624-1a19-4169-931f-b78c18cd3c40\n\nCurrent query:\nHello\nA: Grounded synthesis for 'Conversation history:\n- Session 61556624-1a19-4169-931f-b78c18cd3c40\n\nCurrent query:\nHello': [node:tool:b70952a52843] topic=calc,conversation,history activation=0.25 stability=0.70 Calculation failed: invalid syntax (<unknown>, line 1) [node:hn:0dec473c6043] topic=conversation,hacker-news activation=0.18 stability=0.68 What happened in this GPT-3 conversation?\nSource: retrieved graph context only.",
+      "topics": [
+        "1a19",
+        "61556624",
+        "conversation",
+        "history",
+        "session"
+      ],
+      "activation": 0.34649,
+      "stability": 0.7,
+      "base_strength": 0.5,
+      "last_wave": 0,
+      "collapsed": false,
+      "attributes": {}
+    },
+    {
+      "id": "conversation:61556624-1a19-4169-931f-b78c18cd3c40:1774041638752",
+      "content": "User: Hello\nAssistant: Grounded synthesis for 'Conversation history:\n- Session 61556624-1a19-4169-931f-b78c18cd3c40\n\nCurrent query:\nHello': [node:tool:b70952a52843] topic=calc,conversation,history activation=0.25 stability=0.70 Calculation failed: invalid syntax (<unknown>, line 1) [node:hn:0dec473c6043] topic=conversation,hacker-news activation=0.18 stability=0.68 What happened in this GPT-3 conversation?\nSource: retrieved graph context only.",
+      "topics": [
+        "conversation"
+      ],
+      "activation": 0.26920000000000005,
+      "stability": 0.75,
+      "base_strength": 0.65,
+      "last_wave": 0,
+      "collapsed": false,
+      "attributes": {
+        "timestamp": "2026-03-20T21:20:38.752351+00:00",
+        "session_id": "61556624-1a19-4169-931f-b78c18cd3c40",
+        "type": "conversation_turn"
+      }
+    },
+    {
+      "id": "hn:8e20d5a23a4e",
+      "content": "Bye, Amazon",
+      "topics": [
+        "amazon",
+        "hacker-news"
+      ],
+      "activation": 0.22799999999999998,
+      "stability": 0.68,
+      "base_strength": 0.5,
+      "last_wave": 0,
+      "collapsed": false,
+      "attributes": {}
+    },
+    {
+      "id": "hn:21d3a1dc7512",
+      "content": "A foreign seller has hijacked my Amazon Klein bottle listing",
+      "topics": [
+        "amazon",
+        "hacker-news"
+      ],
+      "activation": 0.22799999999999998,
+      "stability": 0.68,
+      "base_strength": 0.5,
+      "last_wave": 0,
+      "collapsed": false,
+      "attributes": {}
+    },
+    {
+      "id": "hn:7f97c6bc0579",
+      "content": "The Big Hack: How China Used a Tiny Chip to Infiltrate Amazon and Apple",
+      "topics": [
+        "amazon",
+        "hacker-news"
+      ],
+      "activation": 0.22799999999999998,
+      "stability": 0.68,
+      "base_strength": 0.5,
+      "last_wave": 0,
+      "collapsed": false,
+      "attributes": {}
+    },
+    {
+      "id": "hn:39dfee9c8f2a",
+      "content": "How I bypassed Amazon's Kindle web DRM",
+      "topics": [
+        "amazon",
+        "hacker-news"
+      ],
+      "activation": 0.22799999999999998,
+      "stability": 0.68,
+      "base_strength": 0.5,
+      "last_wave": 0,
+      "collapsed": false,
+      "attributes": {}
+    },
+    {
+      "id": "hn:71d9a246bd56",
+      "content": "Breaking down Amazon's mega dropdown",
+      "topics": [
+        "amazon",
+        "hacker-news"
+      ],
+      "activation": 0.22799999999999998,
+      "stability": 0.68,
+      "base_strength": 0.5,
+      "last_wave": 0,
+      "collapsed": false,
+      "attributes": {}
+    },
+    {
+      "id": "hn:25571caa9fef",
+      "content": "Amazon to Acquire Whole Foods for $13.7B",
+      "topics": [
+        "amazon",
+        "hacker-news"
+      ],
+      "activation": 0.22799999999999998,
+      "stability": 0.68,
+      "base_strength": 0.5,
+      "last_wave": 0,
+      "collapsed": false,
+      "attributes": {}
+    },
+    {
+      "id": "hn:81f0f26284c4",
+      "content": "Google engineer writing Amazon reviews on USB-C cables that don't work",
+      "topics": [
+        "amazon",
+        "hacker-news"
+      ],
+      "activation": 0.22799999999999998,
+      "stability": 0.68,
+      "base_strength": 0.5,
+      "last_wave": 0,
+      "collapsed": false,
+      "attributes": {}
+    },
+    {
+      "id": "hn:7dcf141bc2f8",
+      "content": "Amazon tells employees to return to office five days a week",
+      "topics": [
+        "amazon",
+        "hacker-news"
+      ],
+      "activation": 0.22799999999999998,
+      "stability": 0.68,
+      "base_strength": 0.5,
+      "last_wave": 0,
+      "collapsed": false,
+      "attributes": {}
+    },
+    {
+      "id": "hn:ef3274035eeb",
+      "content": "Amazon Web Services in Plain English",
+      "topics": [
+        "amazon",
+        "hacker-news"
+      ],
+      "activation": 0.22799999999999998,
+      "stability": 0.68,
+      "base_strength": 0.5,
+      "last_wave": 0,
+      "collapsed": false,
+      "attributes": {}
+    },
+    {
+      "id": "hn:b8c8170d97c3",
+      "content": "Amazon: Not OK \u2013 Why we had to change Elastic licensing",
+      "topics": [
+        "amazon",
+        "hacker-news"
+      ],
+      "activation": 0.22799999999999998,
+      "stability": 0.68,
+      "base_strength": 0.5,
+      "last_wave": 0,
+      "collapsed": false,
+      "attributes": {}
+    },
+    {
+      "id": "hn:be6c27957ac9",
+      "content": "Amazon's customer service backdoor",
+      "topics": [
+        "amazon",
+        "hacker-news"
+      ],
+      "activation": 0.22799999999999998,
+      "stability": 0.68,
+      "base_strength": 0.5,
+      "last_wave": 0,
+      "collapsed": false,
+      "attributes": {}
+    },
+    {
+      "id": "hn:636f9a6ffc77",
+      "content": "Outlawed by Amazon DRM",
+      "topics": [
+        "amazon",
+        "hacker-news"
+      ],
+      "activation": 0.22799999999999998,
+      "stability": 0.68,
+      "base_strength": 0.5,
+      "last_wave": 0,
+      "collapsed": false,
+      "attributes": {}
+    },
+    {
+      "id": "hn:01948e43a6c4",
+      "content": "Amazon Prime Air",
+      "topics": [
+        "amazon",
+        "hacker-news"
+      ],
+      "activation": 0.22799999999999998,
+      "stability": 0.68,
+      "base_strength": 0.5,
+      "last_wave": 0,
+      "collapsed": false,
+      "attributes": {}
+    },
+    {
+      "id": "hn:f10f1d7be074",
+      "content": "Open Guide to Amazon Web Services",
+      "topics": [
+        "amazon",
+        "hacker-news"
+      ],
+      "activation": 0.22799999999999998,
+      "stability": 0.68,
+      "base_strength": 0.5,
+      "last_wave": 0,
+      "collapsed": false,
+      "attributes": {}
+    },
+    {
+      "id": "hn:24043884e04f",
+      "content": "Amazon scooped up data from its own sellers to launch competing products",
+      "topics": [
+        "amazon",
+        "hacker-news"
+      ],
+      "activation": 0.22799999999999998,
+      "stability": 0.68,
+      "base_strength": 0.5,
+      "last_wave": 0,
+      "collapsed": false,
+      "attributes": {}
+    },
+    {
+      "id": "hn:79fd4d17784b",
+      "content": "Show HN: I'm building an open-source Amazon A couple of years ago, I had an interesting idea. What if there was a marketplace where all the underlying tech was open-source? The order management system, the storefront, customer support, etc.<p>The marketplace would simply connect to the seller\u2019s infra instead of locking them in. If, for some reason, the seller is removed from the marketplace, their software stays with them and they can continue accepting orders directly.<p>This model can be used to disrupt any marketplace from AirBNB to UberEats: building tech for home renters and restaurants and later, leveraging that to build a competing marketplace.<p>In 2019, I started building the first piece, Openship, an order management system that lets you source orders and fulfill them from anywhere. Now that that\u2019s in stable release, next up is Openfront (an e-commerce platform for storefronts) and Opensupport (ticketing software for customer support). Together, they provide the staples for any modern business: sales, fulfillment, support.<p>Let me know what you guys think of the idea and if you see any potential pitfalls.",
+      "topics": [
+        "amazon",
+        "hacker-news"
+      ],
+      "activation": 0.22799999999999998,
+      "stability": 0.68,
+      "base_strength": 0.5,
+      "last_wave": 0,
+      "collapsed": false,
+      "attributes": {}
+    },
+    {
+      "id": "hn:c860356f1ff0",
+      "content": "Letter to Amazon Board from Fired Ad Exec",
+      "topics": [
+        "amazon",
+        "hacker-news"
+      ],
+      "activation": 0.22799999999999998,
+      "stability": 0.68,
+      "base_strength": 0.5,
+      "last_wave": 0,
+      "collapsed": false,
+      "attributes": {}
+    },
+    {
+      "id": "hn:432845ea8e74",
+      "content": "Amazon Go",
+      "topics": [
+        "amazon",
+        "hacker-news"
+      ],
+      "activation": 0.22799999999999998,
+      "stability": 0.68,
+      "base_strength": 0.5,
+      "last_wave": 0,
+      "collapsed": false,
+      "attributes": {}
+    },
+    {
+      "id": "hn:23564d791a16",
+      "content": "Summary of the Amazon S3 Service Disruption",
+      "topics": [
+        "amazon",
+        "hacker-news"
+      ],
+      "activation": 0.22799999999999998,
+      "stability": 0.68,
+      "base_strength": 0.5,
+      "last_wave": 0,
+      "collapsed": false,
+      "attributes": {}
+    },
+    {
+      "id": "hn:5e1528b92272",
+      "content": "Facebook account now required to login to Oculus devices",
+      "topics": [
+        "device",
+        "hacker-news"
+      ],
+      "activation": 0.22799999999999998,
+      "stability": 0.68,
+      "base_strength": 0.5,
+      "last_wave": 0,
+      "collapsed": false,
+      "attributes": {}
+    },
+    {
+      "id": "hn:2fd9e099aa3d",
+      "content": "Motorola GrapheneOS devices will be bootloader unlockable/relockable",
+      "topics": [
+        "device",
+        "hacker-news"
+      ],
+      "activation": 0.22799999999999998,
+      "stability": 0.68,
+      "base_strength": 0.5,
+      "last_wave": 0,
+      "collapsed": false,
+      "attributes": {}
+    },
+    {
+      "id": "hn:fa828b314f7c",
+      "content": "Sonos's \u201crecycle mode\u201d intentionally bricks devices so they can't be reused",
+      "topics": [
+        "device",
+        "hacker-news"
+      ],
+      "activation": 0.22799999999999998,
+      "stability": 0.68,
+      "base_strength": 0.5,
+      "last_wave": 0,
+      "collapsed": false,
+      "attributes": {}
+    },
+    {
+      "id": "hn:19947b09f28a",
+      "content": "Copyparty \u2013 Turn almost any device into a file server",
+      "topics": [
+        "device",
+        "hacker-news"
+      ],
+      "activation": 0.22799999999999998,
+      "stability": 0.68,
+      "base_strength": 0.5,
+      "last_wave": 0,
+      "collapsed": false,
+      "attributes": {}
+    },
+    {
+      "id": "hn:25276d88070a",
+      "content": "How the CIA used Crypto AG encryption devices to spy on countries for decades",
+      "topics": [
+        "device",
+        "hacker-news"
+      ],
+      "activation": 0.22799999999999998,
+      "stability": 0.68,
+      "base_strength": 0.5,
+      "last_wave": 0,
+      "collapsed": false,
+      "attributes": {}
+    },
+    {
+      "id": "hn:428e881ca71d",
+      "content": "Flipper Zero \u2013 Portable Multi-Tool Device for Geeks",
+      "topics": [
+        "device",
+        "hacker-news"
+      ],
+      "activation": 0.22799999999999998,
+      "stability": 0.68,
+      "base_strength": 0.5,
+      "last_wave": 0,
+      "collapsed": false,
+      "attributes": {}
+    },
+    {
+      "id": "hn:640fc96dee52",
+      "content": "Apple's On-Device and Server Foundation Models",
+      "topics": [
+        "device",
+        "hacker-news"
+      ],
+      "activation": 0.22799999999999998,
+      "stability": 0.68,
+      "base_strength": 0.5,
+      "last_wave": 0,
+      "collapsed": false,
+      "attributes": {}
+    },
+    {
+      "id": "hn:5242b098a2ed",
+      "content": "How web bloat impacts users with slow devices",
+      "topics": [
+        "device",
+        "hacker-news"
+      ],
+      "activation": 0.22799999999999998,
+      "stability": 0.68,
+      "base_strength": 0.5,
+      "last_wave": 0,
+      "collapsed": false,
+      "attributes": {}
+    },
+    {
+      "id": "hn:82eb64bf73f8",
+      "content": "New Windows 10 Devices From Microsoft",
+      "topics": [
+        "device",
+        "hacker-news"
+      ],
+      "activation": 0.22799999999999998,
+      "stability": 0.68,
+      "base_strength": 0.5,
+      "last_wave": 0,
+      "collapsed": false,
+      "attributes": {}
+    },
+    {
+      "id": "hn:60b4bac0b979",
+      "content": "Writing userspace USB drivers for abandoned devices",
+      "topics": [
+        "device",
+        "hacker-news"
+      ],
+      "activation": 0.22799999999999998,
+      "stability": 0.68,
+      "base_strength": 0.5,
+      "last_wave": 0,
+      "collapsed": false,
+      "attributes": {}
+    },
+    {
+      "id": "hn:4b8e2f74c059",
+      "content": "Helping Valve to power up Steam devices",
+      "topics": [
+        "device",
+        "hacker-news"
+      ],
+      "activation": 0.22799999999999998,
+      "stability": 0.68,
+      "base_strength": 0.5,
+      "last_wave": 0,
+      "collapsed": false,
+      "attributes": {}
+    },
+    {
+      "id": "hn:8afea202e321",
+      "content": "Why I will never buy another Samsung device",
+      "topics": [
+        "device",
+        "hacker-news"
+      ],
+      "activation": 0.22799999999999998,
+      "stability": 0.68,
+      "base_strength": 0.5,
+      "last_wave": 0,
+      "collapsed": false,
+      "attributes": {}
+    },
+    {
+      "id": "hn:ac766b2154f0",
+      "content": "Google collects 20 times more telemetry from Android devices than Apple from iOS",
+      "topics": [
+        "device",
+        "hacker-news"
+      ],
+      "activation": 0.22799999999999998,
+      "stability": 0.68,
+      "base_strength": 0.5,
+      "last_wave": 0,
+      "collapsed": false,
+      "attributes": {}
+    },
+    {
+      "id": "hn:9fdacd6d3648",
+      "content": "Oculess \u2013 Removes account requirements and telemetry from Oculus Quest devices",
+      "topics": [
+        "device",
+        "hacker-news"
+      ],
+      "activation": 0.22799999999999998,
+      "stability": 0.68,
+      "base_strength": 0.5,
+      "last_wave": 0,
+      "collapsed": false,
+      "attributes": {}
+    },
+    {
+      "id": "hn:8fbafc565691",
+      "content": "Facebook Gave Device Makers Deep Access to Data on Users and Friends",
+      "topics": [
+        "device",
+        "hacker-news"
+      ],
+      "activation": 0.22799999999999998,
+      "stability": 0.68,
+      "base_strength": 0.5,
+      "last_wave": 0,
+      "collapsed": false,
+      "attributes": {}
+    },
+    {
+      "id": "hn:0462051a9c2a",
+      "content": "Stretch iPhone to its limit: 2GiB Stable Diffusion model runs locally on device",
+      "topics": [
+        "device",
+        "hacker-news"
+      ],
+      "activation": 0.22799999999999998,
+      "stability": 0.68,
+      "base_strength": 0.5,
+      "last_wave": 0,
+      "collapsed": false,
+      "attributes": {}
+    },
+    {
+      "id": "hn:72416d434af3",
+      "content": "FCC opens entire 6 GHz band to low power device operations",
+      "topics": [
+        "device",
+        "hacker-news"
+      ],
+      "activation": 0.22799999999999998,
+      "stability": 0.68,
+      "base_strength": 0.5,
+      "last_wave": 0,
+      "collapsed": false,
+      "attributes": {}
+    },
+    {
+      "id": "hn:27948a44a863",
+      "content": "Deskreen \u2013 Turn any device with a web browser to a second computer screen",
+      "topics": [
+        "device",
+        "hacker-news"
+      ],
+      "activation": 0.22799999999999998,
+      "stability": 0.68,
+      "base_strength": 0.5,
+      "last_wave": 0,
+      "collapsed": false,
+      "attributes": {}
+    },
+    {
+      "id": "hn:b4f79a6e918e",
+      "content": "Amazon Will Ban Sale of Apple, Google Video-Streaming Devices",
+      "topics": [
+        "device",
+        "hacker-news"
+      ],
+      "activation": 0.22799999999999998,
+      "stability": 0.68,
+      "base_strength": 0.5,
+      "last_wave": 0,
+      "collapsed": false,
+      "attributes": {}
+    },
+    {
+      "id": "hn:08627ac9478a",
+      "content": "How I recorded user behaviour on my competitor\u2019s websites",
+      "topics": [
+        "hacker-news",
+        "recorded"
+      ],
+      "activation": 0.22799999999999998,
+      "stability": 0.68,
+      "base_strength": 0.5,
+      "last_wave": 0,
+      "collapsed": false,
+      "attributes": {}
+    },
+    {
+      "id": "hn:207e925a57df",
+      "content": "In Secretly Recorded Phone Calls, Officers Say Innocent People Were Framed",
+      "topics": [
+        "hacker-news",
+        "recorded"
+      ],
+      "activation": 0.22799999999999998,
+      "stability": 0.68,
+      "base_strength": 0.5,
+      "last_wave": 0,
+      "collapsed": false,
+      "attributes": {}
+    },
+    {
+      "id": "hn:f88ee95b7c4f",
+      "content": "Kansas tuberculosis outbreak is America's largest recorded since the 1950s",
+      "topics": [
+        "hacker-news",
+        "recorded"
+      ],
+      "activation": 0.22799999999999998,
+      "stability": 0.68,
+      "base_strength": 0.5,
+      "last_wave": 0,
+      "collapsed": false,
+      "attributes": {}
+    },
+    {
+      "id": "hn:0786b186b1e0",
+      "content": "'Alarming' loss of insects and spiders recorded",
+      "topics": [
+        "hacker-news",
+        "recorded"
+      ],
+      "activation": 0.22799999999999998,
+      "stability": 0.68,
+      "base_strength": 0.5,
+      "last_wave": 0,
+      "collapsed": false,
+      "attributes": {}
+    },
+    {
+      "id": "hn:a554557e83f1",
+      "content": "July was the hottest month ever recorded, according to Nasa",
+      "topics": [
+        "hacker-news",
+        "recorded"
+      ],
+      "activation": 0.22799999999999998,
+      "stability": 0.68,
+      "base_strength": 0.5,
+      "last_wave": 0,
+      "collapsed": false,
+      "attributes": {}
+    },
+    {
+      "id": "hn:77c1b9d9c1a3",
+      "content": "Tesla workers shared sensitive images recorded by customer cars",
+      "topics": [
+        "hacker-news",
+        "recorded"
+      ],
+      "activation": 0.22799999999999998,
+      "stability": 0.68,
+      "base_strength": 0.5,
+      "last_wave": 0,
+      "collapsed": false,
+      "attributes": {}
+    },
+    {
+      "id": "hn:dd406277e617",
+      "content": "William Binney: 80% of audio calls are recorded and stored in the US",
+      "topics": [
+        "hacker-news",
+        "recorded"
+      ],
+      "activation": 0.22799999999999998,
+      "stability": 0.68,
+      "base_strength": 0.5,
+      "last_wave": 0,
+      "collapsed": false,
+      "attributes": {}
+    },
+    {
+      "id": "hn:1c86323b08e3",
+      "content": "I recorded user behaviour on my competitor\u2019s websites (2018)",
+      "topics": [
+        "hacker-news",
+        "recorded"
+      ],
+      "activation": 0.22799999999999998,
+      "stability": 0.68,
+      "base_strength": 0.5,
+      "last_wave": 0,
+      "collapsed": false,
+      "attributes": {}
+    },
+    {
+      "id": "hn:0f54b64cc3e1",
+      "content": "Astronomers have found the stars responsible for an explosion recorded in 1437",
+      "topics": [
+        "hacker-news",
+        "recorded"
+      ],
+      "activation": 0.22799999999999998,
+      "stability": 0.68,
+      "base_strength": 0.5,
+      "last_wave": 0,
+      "collapsed": false,
+      "attributes": {}
+    },
+    {
+      "id": "hn:ba49dfc22e33",
+      "content": "How I recorded an album on my own, in my room",
+      "topics": [
+        "hacker-news",
+        "recorded"
+      ],
+      "activation": 0.22799999999999998,
+      "stability": 0.68,
+      "base_strength": 0.5,
+      "last_wave": 0,
+      "collapsed": false,
+      "attributes": {}
+    },
+    {
+      "id": "hn:e03ae2f1d36c",
+      "content": "Earth just experienced its hottest 12 months in recorded history",
+      "topics": [
+        "hacker-news",
+        "recorded"
+      ],
+      "activation": 0.22799999999999998,
+      "stability": 0.68,
+      "base_strength": 0.5,
+      "last_wave": 0,
+      "collapsed": false,
+      "attributes": {}
+    },
+    {
+      "id": "hn:5308009b0c91",
+      "content": "How did Roomba-recorded photos end up on Facebook?",
+      "topics": [
+        "hacker-news",
+        "recorded"
+      ],
+      "activation": 0.22799999999999998,
+      "stability": 0.68,
+      "base_strength": 0.5,
+      "last_wave": 0,
+      "collapsed": false,
+      "attributes": {}
+    },
+    {
+      "id": "hn:067cc88dc772",
+      "content": "I recorded vlogs to show how I built side projects",
+      "topics": [
+        "hacker-news",
+        "recorded"
+      ],
+      "activation": 0.22799999999999998,
+      "stability": 0.68,
+      "base_strength": 0.5,
+      "last_wave": 0,
+      "collapsed": false,
+      "attributes": {}
+    },
+    {
+      "id": "hn:705835dd6d8e",
+      "content": "AI model detects asymptomatic Covid-19 infections through phone-recorded coughs",
+      "topics": [
+        "hacker-news",
+        "recorded"
+      ],
+      "activation": 0.22799999999999998,
+      "stability": 0.68,
+      "base_strength": 0.5,
+      "last_wave": 0,
+      "collapsed": false,
+      "attributes": {}
+    },
+    {
+      "id": "hn:79f630a58049",
+      "content": "July 2015 was warmest month ever recorded",
+      "topics": [
+        "hacker-news",
+        "recorded"
+      ],
+      "activation": 0.22799999999999998,
+      "stability": 0.68,
+      "base_strength": 0.5,
+      "last_wave": 0,
+      "collapsed": false,
+      "attributes": {}
+    },
+    {
+      "id": "hn:be9c9393c407",
+      "content": "I had ChatGPT write a Decemberists song and recorded it",
+      "topics": [
+        "hacker-news",
+        "recorded"
+      ],
+      "activation": 0.22799999999999998,
+      "stability": 0.68,
+      "base_strength": 0.5,
+      "last_wave": 0,
+      "collapsed": false,
+      "attributes": {}
+    },
+    {
+      "id": "hn:3829651a4e98",
+      "content": "NOAA Data Confirms July Was Hottest Month Ever Recorded",
+      "topics": [
+        "hacker-news",
+        "recorded"
+      ],
+      "activation": 0.22799999999999998,
+      "stability": 0.68,
+      "base_strength": 0.5,
+      "last_wave": 0,
+      "collapsed": false,
+      "attributes": {}
+    },
+    {
+      "id": "hn:463cd93ac1a0",
+      "content": "Neuroscientists have recorded the activity of a dying human brain",
+      "topics": [
+        "hacker-news",
+        "recorded"
+      ],
+      "activation": 0.22799999999999998,
+      "stability": 0.68,
+      "base_strength": 0.5,
+      "last_wave": 0,
+      "collapsed": false,
+      "attributes": {}
+    },
+    {
+      "id": "tool:fa7609f3cb86",
+      "content": "Calculation failed: invalid syntax (<unknown>, line 1)",
+      "topics": [
+        "calc",
+        "conversation",
+        "history"
+      ],
+      "activation": 0.2875,
+      "stability": 0.7,
+      "base_strength": 0.5,
+      "last_wave": 0,
+      "collapsed": false,
+      "attributes": {}
+    },
+    {
+      "id": "query:a32f72799779",
+      "content": "Q: Conversation history:\n- Amazon device recorded private conversation, sent it out to random contact\n- Researchers reach human parity in conversational speech recognition\n- Why I can't have conversations using Twitter\n- Google employees are listening to Google Home conversations\n- Q: Conversation history:\n- Session 61556624-1a19-4169-931f-b78c18cd3c40\n\nCurrent query:\nHello\nA: Grounded synthesis for 'Conversation history:\n- Session 61556624-1a19-4169-931f-b78c18cd3c40\n\nCurrent query:\nHello': [node:tool:b70952a52843] topic=calc,conversation,history activatio\n- Session 61556624-1a19-4169-931f-b78c18cd3c40\n- Calculation failed: invalid syntax (<unknown>, line 1)\n- User: Hello\nAssistant: Grounded synthesis for 'Conversation history:\n- Session 61556624-1a19-4169-931f-b78c18cd3c40\n\nCurrent query:\nHello': [node:tool:b70952a52843] topic=calc,conversation,history activation=0.25 stability=0.70 Calculation failed: invalid syntax (<unknown>, line \n\nCurrent query:\nWhat did I just ask?\nA: Grounded synthesis for 'Conversation history:\n- Session 61556624-1a19-4169-931f-b78c18cd3c40\n\nCurrent query:\nHello': [node:tool:b70952a52843] topic=calc,conversation,history activation=0.25 stability=0.70 Calculation failed: invalid syntax (<unknown>, line 1) [node:hn:0dec473c6043] topic=conversation,hacker-news activation=0.18 stability=0.68 What happened in this GPT-3 conversation?\nSource: retrieved graph context only.\n[throttle] Reused previous synthesis due to call interval policy.",
+      "topics": [
+        "amazon",
+        "conversation",
+        "device",
+        "history",
+        "recorded"
+      ],
+      "activation": 0.34649,
+      "stability": 0.7,
+      "base_strength": 0.5,
+      "last_wave": 0,
+      "collapsed": false,
+      "attributes": {}
+    },
+    {
+      "id": "conversation:61556624-1a19-4169-931f-b78c18cd3c40:1774041642439",
+      "content": "User: What did I just ask?\nAssistant: Grounded synthesis for 'Conversation history:\n- Session 61556624-1a19-4169-931f-b78c18cd3c40\n\nCurrent query:\nHello': [node:tool:b70952a52843] topic=calc,conversation,history activation=0.25 stability=0.70 Calculation failed: invalid syntax (<unknown>, line 1) [node:hn:0dec473c6043] topic=conversation,hacker-news activation=0.18 stability=0.68 What happened in this GPT-3 conversation?\nSource: retrieved graph context only.\n[throttle] Reused previous synthesis due to call interval policy.",
+      "topics": [
+        "conversation"
+      ],
+      "activation": 0.27430000000000004,
+      "stability": 0.75,
+      "base_strength": 0.65,
+      "last_wave": 0,
+      "collapsed": false,
+      "attributes": {
+        "timestamp": "2026-03-20T21:20:42.439536+00:00",
+        "session_id": "61556624-1a19-4169-931f-b78c18cd3c40",
+        "type": "conversation_turn"
+      }
+    },
+    {
+      "id": "session:8ef483cc-0029-41b9-9e1c-ccc0cc9197ea",
+      "content": "Session 8ef483cc-0029-41b9-9e1c-ccc0cc9197ea",
+      "topics": [
+        "conversation",
+        "session"
+      ],
+      "activation": 0.18999999999999995,
+      "stability": 0.8,
+      "base_strength": 0.7,
+      "last_wave": 0,
+      "collapsed": false,
+      "attributes": {
+        "session_id": "8ef483cc-0029-41b9-9e1c-ccc0cc9197ea",
+        "type": "session_meta"
+      }
+    },
+    {
+      "id": "session:b9cabba8-7a7d-4a79-9379-73c9a62b5b5a",
+      "content": "Session b9cabba8-7a7d-4a79-9379-73c9a62b5b5a",
+      "topics": [
+        "conversation",
+        "session"
+      ],
+      "activation": 0.18999999999999995,
+      "stability": 0.8,
+      "base_strength": 0.7,
+      "last_wave": 0,
+      "collapsed": false,
+      "attributes": {
+        "session_id": "b9cabba8-7a7d-4a79-9379-73c9a62b5b5a",
+        "type": "session_meta"
+      }
+    },
+    {
+      "id": "emergent:session:61556624-1a19-4169-931f-b78c18cd3c40",
+      "content": "Emerged from tension around session:61556624-1a19-4169-931f-b78c18cd3c40",
+      "topics": [
+        "conversation",
+        "session"
+      ],
+      "activation": 0.402,
+      "stability": 0.7,
+      "base_strength": 0.6,
+      "last_wave": 0,
+      "collapsed": false,
+      "attributes": {
+        "type": "emergent",
+        "source": "session:61556624-1a19-4169-931f-b78c18cd3c40"
+      }
+    },
+    {
+      "id": "emergent:session:8ef483cc-0029-41b9-9e1c-ccc0cc9197ea",
+      "content": "Emerged from tension around session:8ef483cc-0029-41b9-9e1c-ccc0cc9197ea",
+      "topics": [
+        "conversation",
+        "session"
+      ],
+      "activation": 0.402,
+      "stability": 0.7,
+      "base_strength": 0.6,
+      "last_wave": 0,
+      "collapsed": false,
+      "attributes": {
+        "type": "emergent",
+        "source": "session:8ef483cc-0029-41b9-9e1c-ccc0cc9197ea"
+      }
+    },
+    {
+      "id": "session:9bcc5964-a63b-4870-b8b2-1262e53fc8b9",
+      "content": "Session 9bcc5964-a63b-4870-b8b2-1262e53fc8b9",
+      "topics": [
+        "conversation",
+        "session"
+      ],
+      "activation": 0.1,
+      "stability": 0.8,
+      "base_strength": 0.7,
+      "last_wave": 0,
+      "collapsed": false,
+      "attributes": {
+        "session_id": "9bcc5964-a63b-4870-b8b2-1262e53fc8b9",
+        "type": "session_meta"
+      }
+    },
+    {
+      "id": "runtime:self_improvement",
+      "content": "Self-improvement state",
+      "topics": [
+        "runtime",
+        "self_improvement"
+      ],
+      "activation": 0.0,
+      "stability": 0.9,
+      "base_strength": 0.8,
+      "last_wave": 0,
+      "collapsed": false,
+      "attributes": {
+        "best_val_loss": null,
+        "last_fine_tune_time": 0.0,
+        "last_tuned_trace_count": 0
+      }
+    }
+  ],
+  "edges": [
+    {
+      "src": "conversation:61556624-1a19-4169-931f-b78c18cd3c40:1774041638752",
+      "dst": "conversation:61556624-1a19-4169-931f-b78c18cd3c40:1774041642439",
+      "weight": 0.3,
+      "relation": "relates"
+    },
+    {
+      "src": "session:61556624-1a19-4169-931f-b78c18cd3c40",
+      "dst": "emergent:session:61556624-1a19-4169-931f-b78c18cd3c40",
+      "weight": 0.3,
+      "relation": "relates"
+    },
+    {
+      "src": "session:8ef483cc-0029-41b9-9e1c-ccc0cc9197ea",
+      "dst": "emergent:session:8ef483cc-0029-41b9-9e1c-ccc0cc9197ea",
+      "weight": 0.3,
+      "relation": "relates"
+    }
+  ]
+}

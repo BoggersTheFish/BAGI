@@ -1,0 +1,10 @@
+# Orbital desktop entry — Thinking System graph shell (not TypeScript).
+# After packaging, install into Orbital’s app list per your Redox revision
+# (paths vary; see https://doc.redox-os.org/book/including-programs.html).
+
+[app]
+id = "bos-ts-orbit"
+name = "TS-OS Graph"
+exec = "/usr/bin/bos-ts-orbital"
+icon = "applications-system"
+comment = "Live φ graph + tension dashboard (Orbclient / Orbital)"

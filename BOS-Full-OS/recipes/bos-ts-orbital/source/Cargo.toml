@@ -1,0 +1,12 @@
+[package]
+name = "bos-ts-orbital"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name = "bos-ts-orbital"
+path = "src/main.rs"
+
+[target.'cfg(target_os = "redox")'.dependencies]
+orbclient = "0.3"
+bos-ts-kernel = { path = "bos-ts-kernel" }

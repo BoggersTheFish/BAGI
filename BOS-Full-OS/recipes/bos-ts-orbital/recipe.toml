@@ -1,0 +1,5 @@
+# Redox cookbook — bos-ts-orbital (Orbclient TS graph shell for Orbital)
+# TS = Thinking System (not TypeScript)
+
+[build]
+template = "cargo"

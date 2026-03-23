@@ -1,0 +1,9 @@
+# Orbital desktop entry — TS-OS live graph (Thinking System, not TypeScript)
+# Install per Redox Orbital packaging for your revision.
+
+[app]
+id = "bos-ts-orbit"
+name = "TS-OS Graph Desktop"
+exec = "/usr/bin/bos-ts-orbital"
+icon = "applications-system"
+comment = "φ live graph · TensionRing strip · Root controls (PMC10181851 / Frontiers 2026)"

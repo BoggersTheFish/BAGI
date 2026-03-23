@@ -1,0 +1,27 @@
+# Machine-assisted semantic patch — Redox kernel idle → Thinking System tick
+# TS = Thinking System / Thinking Wave (NOT TypeScript)
+#
+# Upstream `redox-os/kernel` refactors frequently; line numbers are NOT stable.
+# **Preferred:** run `scripts/apply-idle-hook.sh` after `apply-kernel-integration.sh`
+# (same effect as the snippet below).
+#
+# --- Equivalent manual change (inside the first matching `fn idle(...) {` in kernel/src/**/*.rs) ---
+#
+# +    unsafe {
+# +        crate::bos_ts_idle::ts_kernel_idle_hook();
+# +    }
+#
+# `ts_kernel_idle_hook` is defined in `kernel/src/bos_ts_idle.rs` and calls
+# `bos_ts_kernel::ts_idle_tick_full` (see `patches/kernel-files/bos_ts_idle.rs`).
+#
+# --- Example unified diff (FICTIONAL PATH — adjust to your tree) ---
+diff --git a/kernel/src/context/scheduler.rs b/kernel/src/context/scheduler.rs
+--- a/kernel/src/context/scheduler.rs
++++ b/kernel/src/context/scheduler.rs
+@@ -42,6 +42,10 @@
+ pub fn idle() {
++    unsafe {
++        crate::bos_ts_idle::ts_kernel_idle_hook();
++    }
+     // ... existing idle / halt / yield logic ...
+ }

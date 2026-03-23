@@ -1,0 +1,13 @@
+[package]
+name = "bos-ts-kernel"
+description = "TS idle loop for Redox kernel integration (#![no_std])"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[lib]
+name = "bos_ts_kernel"
+path = "src/lib.rs"
+
+[dependencies]
+libm = "0.2"

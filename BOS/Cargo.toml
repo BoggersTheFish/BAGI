@@ -1,0 +1,13 @@
+# BOS — Bootable TS-OS (Thinking System / Thinking Wave — NOT TypeScript)
+# Workspace layout: kernel stubs + userspace shell. Future: Redox integration.
+# https://github.com/redox-os/redox | https://www.boggersthefish.com/
+
+[workspace]
+resolver = "2"
+members = ["kernel", "bos-shell"]
+
+[workspace.package]
+version = "0.0.1"
+edition = "2021"
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/BoggersTheFish"

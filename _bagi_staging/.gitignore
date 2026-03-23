@@ -1,0 +1,20 @@
+# IDE / caches
+.cursor/
+.pytest_cache/
+.ruff_cache/
+.coverage
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Secrets / local DB
+.env
+graph.db
+*.db-shm
+*.db-wal
+
+# Large local artifacts (optional — remove lines to track)
+# dataset/
+# models/

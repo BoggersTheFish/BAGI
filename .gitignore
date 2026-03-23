@@ -1,0 +1,29 @@
+# BAGI monorepo — Thinking System workspace (not TypeScript)
+
+# Rust
+**/target/
+**/*.rs.bk
+
+# Python
+**/__pycache__/
+**/.pytest_cache/
+**/.ruff_cache/
+**/*.pyc
+**/.venv/
+**/venv/
+**/eggs/
+**/.mypy_cache/
+
+# Node
+**/node_modules/
+**/dist/
+**/.next/
+
+# IDE / OS
+.DS_Store
+Thumbs.db
+.cursor/
+*.log
+
+# Large upstream clone — recreate with BOS-Full-OS/scripts/clone-redox.*
+BOS-Full-OS/redox/

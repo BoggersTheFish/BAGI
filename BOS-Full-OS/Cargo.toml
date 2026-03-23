@@ -1,0 +1,15 @@
+# BOS-Full-OS — Thinking System (TS) integration workspace for Redox OS
+# TS = Thinking System / Thinking Wave — NOT TypeScript (see README.md)
+
+[workspace]
+resolver = "2"
+members = [
+    "crates/bos-ts-kernel",
+    "crates/bos-ts-shell",
+    "crates/bos-ts-orbital",
+]
+
+[workspace.package]
+version = "0.1.0"
+edition = "2021"
+license = "MIT OR Apache-2.0"

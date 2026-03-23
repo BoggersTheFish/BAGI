@@ -1,0 +1,15 @@
+# BOS-Full-OS — merge into Redox image config (e.g. redox/config/x86_64/desktop.toml)
+# TS = Thinking System / Thinking Wave (NOT TypeScript)
+#
+# After `git clone` Redox, locate the active profile TOML and add these packages
+# so the TS userspace + kernel recipe wiring are included in the image.
+# Schema keys differ by release — diff against upstream before merging.
+
+[packages]
+# Cookbook recipes copied by scripts/apply-overlay.sh:
+bos-ts-kernel = {}
+bos-ts-shell = {}
+bos-ts-orbital = {}
+
+[boot]
+# reserved: empty_peace kernel flag (future wave)

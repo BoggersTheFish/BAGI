@@ -1,0 +1,4 @@
+# Redox cookbook recipe — bos-ts-shell (userspace TS portal stub)
+
+[build]
+template = "cargo"
