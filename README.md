@@ -23,7 +23,7 @@ In Cursor Chat, prompts can drive `ts/waves/wave-*.md` traces and TS-OS loop out
 ```bash
 git add -A
 git commit -m "Your message"
-git push origin main
+git push origin master
 ```
 
 Remote: **`origin`** → `https://github.com/<you>/BAGI.git` (set once per [`docs/GITHUB-BAGI.md`](docs/GITHUB-BAGI.md)).

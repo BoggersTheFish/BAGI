@@ -16,9 +16,9 @@ git init                 # if not already
 git add -A
 git status
 git commit -m "BAGI: full workspace snapshot"
-git branch -M main
+git branch -M master
 git remote add origin https://github.com/BoggersTheFish/BAGI.git
-git push -u origin main
+git push -u origin master
 ```
 
 Replace `BoggersTheFish` with your GitHub user or org. Use SSH if you prefer: `git@github.com:BoggersTheFish/BAGI.git`
