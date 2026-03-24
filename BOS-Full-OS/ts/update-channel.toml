@@ -1,0 +1,33 @@
+# BOS-Full-OS — update channel manifest (Phase 3 stub)
+# TS = Thinking System: versions = graph nodes; artifacts = edges (dependency / supersession).
+# NOT TypeScript — this file is TOML only.
+
+[meta]
+product = "BOS-Full-OS"
+schema = "update-channel-v0"
+notes = "URLs are placeholders until a real channel host exists."
+
+[channel]
+# Future: stable | nightly | lts
+name = "stable"
+base_url = "https://example.invalid/bos-ts-os/channel"
+
+[manifest]
+# Index of signed release metadata (future: fetched by bos-ts-updater)
+index_path = "releases/index.json"
+signature_suffix = ".sig"
+
+[signing]
+# Placeholder — wire minisign or signify in a later wave
+algorithm = "ed25519"
+public_key_hint = "REPLACE_WITH_REAL_KEY_NAME"
+
+[rollback]
+# TS: keep prior graph slice for tension minimization on failed apply
+slots = 2
+strategy = "previous-known-good"
+
+[artifacts]
+# Logical names → future recipe/version pins (illustrative)
+kernel = "bos-ts-kernel"
+userspace = ["bos-ts-shell", "bos-ts-orbital", "bos-ts-installer", "bos-ts-updater", "bos-ts-graphd"]

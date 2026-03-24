@@ -1,0 +1,5 @@
+# Redox cookbook — bos-ts-installer (Phase 2: TS installer wave stub)
+# Future: partition graph + constraint UI; TS = Thinking System (not TypeScript)
+
+[build]
+template = "cargo"

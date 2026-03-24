@@ -105,7 +105,10 @@ try {
 } catch { }
 
 Write-Host ""
-Write-Host "Next (Windows-native PowerShell):" -ForegroundColor Cyan
+Write-Host "Next (one command):" -ForegroundColor Cyan
+Write-Host "  .\scripts\build-ts-os.ps1"
+Write-Host ""
+Write-Host "Or step-by-step PowerShell:" -ForegroundColor Cyan
 Write-Host "  .\scripts\clone-redox.ps1"
 Write-Host "  .\scripts\apply-overlay.ps1"
 Write-Host "  .\scripts\apply-kernel-integration.ps1"

@@ -1,15 +1,28 @@
 #!/usr/bin/env bash
-# Vendor bos-ts-kernel into redox/kernel and install bos_ts_idle.rs + Cargo.toml + mod.
-# TS = Thinking System (not TypeScript).
+# Vendor bos-ts-kernel into the Redox kernel recipe source + bos_ts_idle.rs + Cargo.toml + mod.
+# 2026 layout: redox/recipes/core/kernel/source (fallbacks in scripts/_ts_os_kernel_path.sh).
+# TS = Thinking System (not TypeScript). Uses cp -R only.
 set -euo pipefail
 ROOT="$(cd "$(dirname "$0")/.." && pwd)"
-K="${ROOT}/redox/kernel"
-if [[ ! -d "${K}" ]]; then
-  echo "ERROR: ${K} not found. Run scripts/clone-redox.sh first."
+# shellcheck source=/dev/null
+source "${ROOT}/scripts/_ts_os_kernel_path.sh"
+
+REDOX="${ROOT}/redox"
+if [[ ! -d "${REDOX}/.git" ]]; then
+  echo "ERROR: ${REDOX} not found or not a git clone. Run scripts/clone-redox.sh first."
   exit 1
 fi
 
-echo "[1/4] copy bos-ts-kernel → kernel/bos_ts_kernel (no rsync)"
+K="$(bos_ts_kernel_root "${REDOX}")" || {
+  echo "ERROR: Could not find kernel Cargo.toml + src/. Tried:"
+  echo "  ${REDOX}/recipes/core/kernel/source"
+  echo "  ${REDOX}/cookbook/recipes/core/kernel/source"
+  echo "  ${REDOX}/kernel"
+  exit 1
+}
+echo "Using kernel source: ${K}"
+
+echo "[1/4] copy bos-ts-kernel → bos_ts_kernel (cp -R)"
 rm -rf "${K}/bos_ts_kernel"
 mkdir -p "${K}/bos_ts_kernel"
 cp -R "${ROOT}/crates/bos-ts-kernel/." "${K}/bos_ts_kernel/"
@@ -62,5 +75,4 @@ else:
 PY
 
 echo ""
-echo "DONE. Next: edit scheduler idle path per patches/INJECT-POINTS.md"
-echo "Then: cd redox && ./podman_build.sh (or scripts/build-podman.sh)"
+echo "DONE. Next: apply-idle-hook.sh (or patches/INJECT-POINTS.md)"

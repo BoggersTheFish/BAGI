@@ -15,3 +15,5 @@
 3. Shell (`bos-ts-orbital`) queries graph API over IPC.
 
 No single-file solution — requires coordinated Redox PRs.
+
+**In-repo contract (Phase 4 stub):** [`ts/vfs-graph.toml`](../ts/vfs-graph.toml) and **`bos-ts-graphd`** (userspace stub; see `recipes/bos-ts-graphd/`).

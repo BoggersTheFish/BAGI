@@ -1,0 +1,5 @@
+# Redox cookbook — bos-ts-graphd (Phase 4: graph index / IPC stub)
+# TS = Thinking System (not TypeScript). See ts/vfs-graph.toml and docs/VFS-UNIVERSAL-GRAPH.md
+
+[build]
+template = "cargo"

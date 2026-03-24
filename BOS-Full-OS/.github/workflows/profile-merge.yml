@@ -1,0 +1,23 @@
+# Validates merge_bos_into_redox_profile.py (Phase 1) without cloning Redox.
+name: profile-merge
+on:
+  push:
+    branches: [main, master]
+  pull_request:
+    branches: [main, master]
+
+jobs:
+  merge-smoke:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Python merge smoke
+        run: |
+          set -e
+          mkdir -p /tmp/redox-profile-test
+          printf '%s\n' '[packages]' 'kernel = {}' > /tmp/redox-profile-test/desktop.toml
+          python3 scripts/merge_bos_into_redox_profile.py /tmp/redox-profile-test/desktop.toml
+          grep -q 'bos-ts-kernel' /tmp/redox-profile-test/desktop.toml
+          grep -q 'bos-ts-orbital' /tmp/redox-profile-test/desktop.toml
+          python3 scripts/merge_bos_into_redox_profile.py /tmp/redox-profile-test/desktop.toml
+          echo "idempotent second run OK"

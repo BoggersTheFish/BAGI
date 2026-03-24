@@ -1,0 +1,39 @@
+# BOS-Full-OS — TS desktop-class phases (Thinking System; NOT TypeScript)
+# Edit ts/CURRENT-WAVE when advancing the active wave name or phase.
+
+[meta]
+name = "BOS-Full-OS desktop-class"
+substrate = "redox"
+ts_layer = "kernel-idle + orbital + vfs-graph stub + installer/update stubs"
+
+[phase.0]
+id = "integrated-ts-os"
+status = "baseline"
+packages = ["bos-ts-kernel", "bos-ts-shell", "bos-ts-orbital"]
+
+[phase.1]
+id = "profile-hardening"
+status = "completed"
+notes = "merge-bos-profile.sh + merge_bos_into_redox_profile.py; ts/hardware-tier.toml; SKIP_PROFILE_MERGE=1; CI: .github/workflows/profile-merge.yml"
+
+[phase.2]
+id = "installer-wave"
+status = "stub"
+packages = ["bos-ts-installer"]
+notes = "recipes/bos-ts-installer shipped; full installer + upstream alignment = next"
+
+[phase.3]
+id = "update-channel"
+status = "stub"
+packages = ["bos-ts-updater"]
+notes = "ts/update-channel.toml + recipes/bos-ts-updater; signing + fetch TBD"
+
+[phase.4]
+id = "vfs-universal-graph"
+status = "stub"
+packages = ["bos-ts-graphd"]
+notes = "ts/vfs-graph.toml + recipes/bos-ts-graphd; redoxfs + IPC TBD"
+
+[phase.5]
+id = "ecosystem-hero-apps"
+status = "next"

@@ -1,0 +1,17 @@
+# Tier-1 targets for BOS-Full-OS (Phase 1 — profile / CI alignment)
+# TS = Thinking System (not TypeScript). See docs/TS-DESKTOP-CLASS-ROADMAP.md
+
+[tier_1.qemu]
+description = "Default dev / CI smoke (matches build-ts-os.sh QEMU hint)"
+arch = "x86_64"
+memory_mib = 2048
+qemu_cpu = "host" # or qemu64 when host KVM unavailable
+
+[tier_1.redox_profile]
+# Resolved by scripts/merge-bos-profile.* when present (override with REDOX_PROFILE)
+preferred = "config/x86_64/desktop.toml"
+fallbacks = ["config/x86_64/demo.toml", "config/desktop.toml"]
+
+[tier_1.reference_host]
+# Optional physical machine class for manual QA (not CI-gated here)
+notes = "Document your test laptop model + NIC/GPU when validating beyond QEMU"

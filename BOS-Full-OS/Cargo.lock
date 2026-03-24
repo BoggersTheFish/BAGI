@@ -15,6 +15,14 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "843867be96c8daad0d758b57df9392b6d8d271134fce549de6ce169ff98a92af"
 
 [[package]]
+name = "bos-ts-graphd"
+version = "0.1.0"
+
+[[package]]
+name = "bos-ts-installer"
+version = "0.1.0"
+
+[[package]]
 name = "bos-ts-kernel"
 version = "0.1.0"
 dependencies = [
@@ -31,6 +39,10 @@ dependencies = [
 
 [[package]]
 name = "bos-ts-shell"
+version = "0.1.0"
+
+[[package]]
+name = "bos-ts-updater"
 version = "0.1.0"
 
 [[package]]

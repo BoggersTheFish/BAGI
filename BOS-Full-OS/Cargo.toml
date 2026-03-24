@@ -7,6 +7,15 @@ members = [
     "crates/bos-ts-kernel",
     "crates/bos-ts-shell",
     "crates/bos-ts-orbital",
+    "crates/bos-ts-installer",
+    "crates/bos-ts-updater",
+    "crates/bos-ts-graphd",
+]
+exclude = [
+    # Cookbook trees under recipes/*/source are built by Redox; keep out of this workspace.
+    "recipes/bos-ts-installer/source",
+    "recipes/bos-ts-updater/source",
+    "recipes/bos-ts-graphd/source",
 ]
 
 [workspace.package]

@@ -8,7 +8,7 @@ if [[ ! -d "${REDOX}/.git" ]]; then
   exit 1
 fi
 mkdir -p "${COOK}"
-for r in bos-ts-kernel bos-ts-shell bos-ts-orbital; do
+for r in bos-ts-kernel bos-ts-shell bos-ts-orbital bos-ts-installer bos-ts-updater bos-ts-graphd; do
   echo "Copying recipe ${r}..."
   rm -rf "${COOK}/${r}"
   cp -a "${ROOT}/recipes/${r}" "${COOK}/"

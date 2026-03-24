@@ -1,15 +1,23 @@
 #!/usr/bin/env bash
-# Insert TS idle hook into Redox kernel idle path (calls ts_kernel_idle_hook → ts_idle_tick_full).
+# Insert TS idle hook into kernel source tree (fn idle / idle_loop).
 # TS = Thinking System (not TypeScript). Idempotent.
 set -euo pipefail
 ROOT="$(cd "$(dirname "$0")/.." && pwd)"
-K="${ROOT}/redox/kernel/src"
-if [[ ! -d "${K}" ]]; then
-  echo "ERROR: ${K} missing — run clone-redox.sh and apply-kernel-integration.sh first."
+# shellcheck source=/dev/null
+source "${ROOT}/scripts/_ts_os_kernel_path.sh"
+
+REDOX="${ROOT}/redox"
+K="$(bos_ts_kernel_root "${REDOX}")" || {
+  echo "ERROR: kernel source not found — run apply-kernel-integration.sh first."
+  exit 1
+}
+KERNEL_SRC="${K}/src"
+if [[ ! -d "${KERNEL_SRC}" ]]; then
+  echo "ERROR: ${KERNEL_SRC} missing"
   exit 1
 fi
 
-python3 - "${K}" <<'PY'
+python3 - "${KERNEL_SRC}" <<'PY'
 import re
 import sys
 from pathlib import Path
@@ -19,7 +27,6 @@ HOOK = """    unsafe {
         crate::bos_ts_idle::ts_kernel_idle_hook();
     }
 """
-# Prefer files whose path hints at scheduler / context / idle
 prefer = ("scheduler", "context", "cpu", "idle")
 candidates = sorted(
     kernel_src.rglob("*.rs"),
@@ -35,7 +42,6 @@ for path in candidates:
     if "ts_kernel_idle_hook" in text:
         print(f"Already patched: {path}")
         raise SystemExit(0)
-    # Match: pub fn idle ... {  or fn idle ... {
     patterns = [
         r"(pub\s+)?fn\s+idle\s*\([^)]*\)\s*(?:->\s*[^{]+)?\{",
         r"(pub\s+)?fn\s+idle_loop\s*\([^)]*\)\s*(?:->\s*[^{]+)?\{",
@@ -54,7 +60,7 @@ for path in candidates:
 
 if patched is None:
     print(
-        "ERROR: could not find `fn idle(...)` in kernel/src/**/*.rs.\n"
+        "ERROR: could not find `fn idle(...)` under kernel source.\n"
         "Add manually (see patches/INJECT-POINTS.md):\n"
         "  unsafe { crate::bos_ts_idle::ts_kernel_idle_hook(); }"
     )

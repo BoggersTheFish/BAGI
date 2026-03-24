@@ -1,0 +1,30 @@
+# BOS-Full-OS — UniversalLivingGraph ↔ VFS contract (Phase 4 stub)
+# Aligns with docs/VFS-UNIVERSAL-GRAPH.md. TS = Thinking System (not TypeScript).
+
+[meta]
+schema = "vfs-graph-v0"
+daemon = "bos-ts-graphd"
+notes = "IPC + redoxfs integration are future coordinated PRs; this file is the in-repo contract."
+
+[mapping]
+# Design intent: each inode ↔ TsNodeState (activation, stability, base_strength)
+inode_model = "TsNodeState"
+edge_model = "weighted_constraint_edge"
+
+[ipc]
+# Future: scheme + socket path for bos-ts-orbital and other clients
+scheme = "unix"
+socket_path = "/tmp/bos-ts-graphd.sock"
+api = "graph-query-v0"
+
+[ingest]
+# Filesystem events → graph reconciliation (scheduled waves)
+sources = ["inode-metadata-scan", "future-redoxfs-hook"]
+
+[consumers]
+shell = "bos-ts-orbital"
+kernel_telemetry = "bos_ts_idle"
+
+[reconciliation]
+policy = "userspace-merge"
+tension_on_conflict = "Break_or_merge_per_wave"

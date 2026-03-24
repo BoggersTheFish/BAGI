@@ -1,0 +1,10 @@
+[package]
+name = "bos-ts-installer"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name = "bos-ts-installer"
+path = "src/main.rs"
+
+[dependencies]

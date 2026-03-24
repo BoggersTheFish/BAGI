@@ -1,0 +1,3 @@
+WAVE=OS-DESKTOP-CLASS-TS-001
+PHASE=4-vfs-graph-stub-shipped
+NOTE=ts/vfs-graph.toml + bos-ts-graphd; Phase 5 next = ecosystem / hero apps (see roadmap)

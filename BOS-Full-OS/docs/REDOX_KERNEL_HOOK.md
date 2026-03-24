@@ -4,12 +4,12 @@
 
 This is **not** a one-line patch: you must integrate with the Redox kernel tree.
 
-**Automated path (Wave 064+):** run `scripts/apply-kernel-integration.sh` (vendors `bos_ts_kernel`, installs `bos_ts_idle.rs`), then `scripts/apply-idle-hook.sh` (inserts `ts_kernel_idle_hook()` into the first matching `fn idle` / `fn idle_loop`). Static buffers live in `patches/kernel-files/bos_ts_idle.rs` (calls `ts_idle_tick_full`).
+**Automated path:** run `./scripts/build-ts-os.sh` or use `apply-kernel-integration.sh` then `apply-idle-hook.sh`. Kernel source is resolved by `scripts/_ts_os_kernel_path.sh` — **2026:** `redox/recipes/core/kernel/source`, then cookbook path, then `redox/kernel`. Static buffers live in `patches/kernel-files/bos_ts_idle.rs` (calls `ts_idle_tick_full`).
 
 ## Intended call site
 
 1. Clone [Redox](https://gitlab.redox-os.org/redox-os/redox) (see `../scripts/clone-redox.sh`).
-2. Open the kernel scheduler / idle loop in `redox/kernel` (exact path varies by Redox version).
+2. Open the kernel scheduler / idle loop under the **resolved** kernel `src/` (see `patches/INJECT-POINTS.md`).
 3. Add a **static** graph buffer + `TensionRing<256>` in the kernel’s BSS or per-CPU struct.
 4. On each idle iteration (or timer tick), call:
 

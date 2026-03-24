@@ -1,0 +1,5 @@
+# Redox cookbook — bos-ts-updater (Phase 3: update channel stub)
+# TS = Thinking System (not TypeScript). See ts/update-channel.toml
+
+[build]
+template = "cargo"

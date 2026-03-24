@@ -1,12 +1,17 @@
 #Requires -Version 5.1
-# Insert TS idle hook into Redox kernel (TS = Thinking System). Uses Python if available.
+# Insert TS idle hook — kernel path from _ts_os_kernel_path.ps1
 $ErrorActionPreference = "Stop"
+. "$PSScriptRoot\_ts_os_kernel_path.ps1"
 
 $Root = Split-Path -Parent $PSScriptRoot
-$K = Join-Path $Root "redox\kernel\src"
-
-if (-not (Test-Path $K)) {
-    Write-Error "ERROR: $K missing — run clone-redox.ps1 and apply-kernel-integration.ps1 first."
+$Redox = Join-Path $Root "redox"
+$K = Get-BosTsKernelRoot -RedoxRoot $Redox
+if (-not $K) {
+    Write-Error "Kernel source not found — run apply-kernel-integration.ps1 first."
+}
+$KernelSrc = Join-Path $K "src"
+if (-not (Test-Path $KernelSrc)) {
+    Write-Error "Missing $KernelSrc"
 }
 
 $python = $null
@@ -22,7 +27,7 @@ if (-not $python -and (Get-Command py -ErrorAction SilentlyContinue)) {
     $pyExtra = @("-3")
 }
 if (-not $python) {
-    Write-Error "Python 3 required for apply-idle-hook.ps1 (or use apply-idle-hook.sh with python)."
+    Write-Error "Python 3 required for apply-idle-hook.ps1."
 }
 
 $pyFile = Join-Path $env:TEMP "bos-apply-idle-$(Get-Random).py"
@@ -69,9 +74,8 @@ for path in candidates:
 
 if patched is None:
     print(
-        "ERROR: could not find `fn idle(...)` in kernel/src/**/*.rs.\n"
-        "Add manually (see patches/INJECT-POINTS.md):\n"
-        "  unsafe { crate::bos_ts_idle::ts_kernel_idle_hook(); }"
+        "ERROR: could not find `fn idle(...)` under kernel source.\n"
+        "Add manually (see patches/INJECT-POINTS.md)."
     )
     raise SystemExit(1)
 
@@ -81,9 +85,9 @@ print(f"Inserted idle hook in: {patched}")
 Set-Content -LiteralPath $pyFile -Value $pyCode -Encoding UTF8
 try {
     if ($pyExtra) {
-        & $python @pyExtra $pyFile $K
+        & $python @pyExtra $pyFile $KernelSrc
     } else {
-        & $python $pyFile $K
+        & $python $pyFile $KernelSrc
     }
     if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }
 } finally {

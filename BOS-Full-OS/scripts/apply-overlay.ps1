@@ -13,7 +13,7 @@ if (-not (Test-Path (Join-Path $Redox ".git"))) {
 
 $null = New-Item -ItemType Directory -Force -Path $Cook
 
-foreach ($r in @("bos-ts-kernel", "bos-ts-shell", "bos-ts-orbital")) {
+foreach ($r in @("bos-ts-kernel", "bos-ts-shell", "bos-ts-orbital", "bos-ts-installer", "bos-ts-updater", "bos-ts-graphd")) {
     Write-Host "Copying recipe $r..."
     $dest = Join-Path $Cook $r
     if (Test-Path $dest) { Remove-Item -LiteralPath $dest -Recurse -Force }

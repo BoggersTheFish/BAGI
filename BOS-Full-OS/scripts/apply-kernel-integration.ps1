@@ -1,17 +1,30 @@
 #Requires -Version 5.1
-# Vendor bos-ts-kernel into redox/kernel — no rsync (TS = Thinking System).
+# Vendor bos-ts-kernel into Redox kernel recipe source (2026 layout). TS = Thinking System.
 $ErrorActionPreference = "Stop"
 . "$PSScriptRoot\_copy_tree.ps1"
+. "$PSScriptRoot\_ts_os_kernel_path.ps1"
 $utf8 = New-Object System.Text.UTF8Encoding $false
 
 $Root = Split-Path -Parent $PSScriptRoot
-$K = Join-Path $Root "redox\kernel"
+$Redox = Join-Path $Root "redox"
 
-if (-not (Test-Path $K)) {
-    Write-Error "ERROR: $K not found. Run clone-redox.ps1 first."
+if (-not (Test-Path (Join-Path $Redox ".git"))) {
+    Write-Error "ERROR: $Redox not found or not a git clone. Run clone-redox.ps1 first."
 }
 
-Write-Host "[1/4] copy bos-ts-kernel -> kernel/bos_ts_kernel"
+$K = Get-BosTsKernelRoot -RedoxRoot $Redox
+if (-not $K) {
+    Write-Error @"
+ERROR: Could not find kernel Cargo.toml + src/. Tried:
+  $Redox\recipes\core\kernel\source
+  $Redox\cookbook\recipes\core\kernel\source
+  $Redox\kernel
+"@
+}
+
+Write-Host "Using kernel source: $K"
+
+Write-Host "[1/4] copy bos-ts-kernel -> bos_ts_kernel"
 $dest = Join-Path $K "bos_ts_kernel"
 Copy-BosTreeSync -Source (Join-Path $Root "crates\bos-ts-kernel") -Destination $dest
 
@@ -58,4 +71,4 @@ if ($hasMod) {
 }
 
 Write-Host ""
-Write-Host "DONE. Next: scheduler idle path per patches/INJECT-POINTS.md, then apply-idle-hook.ps1"
+Write-Host "DONE. Next: apply-idle-hook.ps1"
